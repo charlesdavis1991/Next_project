@@ -1,0 +1,247 @@
+.panels-side {
+  gap: 5px;
+}
+
+.details-panel .panel-detail {
+  flex: 0 0 255px;
+  max-width: 255px;
+}
+
+.details-panel .panel-detail h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.details-panel .panel-detail.report {
+  order: 99;
+}
+.details-panel .panel-detail h2 {
+  text-align: center;
+}
+
+.details-panel .panel-detail .data-row {
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h-167 {
+  height: 167px;
+}
+
+.notes-side {
+  flex: 1;
+  width: auto;
+  max-width: none;
+  overflow: auto;
+}
+
+.acciInfo .custom-control-label::before,
+.acciInfo .custom-control-label::after {
+  left: -5px;
+}
+
+.details-panel {
+  gap: 5px;
+}
+
+.acciInfo .input-group-text {
+  padding: .2rem .75rem;
+  border-left: 0;
+}
+
+@media (min-width: 2000px) {
+  .panels-side {
+    flex: 0 0 1560px;
+    max-width: 1560px;
+  }
+
+  .notes-side {
+    flex: 1;
+    width: auto;
+    max-width: none;
+    max-height: 182px
+  }
+}
+
+@media(max-width: 2000px) {
+  .panels-side {
+    flex: 0 0 775px;
+    max-width: 775px;
+  }
+  .notes-side {
+    max-height: 374px
+  }
+  .details-panel .panel-detail.accident-info{order: 0;}
+  .details-panel .panel-detail.accident-location{order: 1;}
+  .details-panel .panel-detail.accident-description{order: 3;}
+  .details-panel .panel-detail.location-description{order: 5;}
+  .details-panel .panel-detail.defendants-fault{order: 5;}
+  .details-panel .panel-detail.photo{order: 2;}
+}
+
+@media(max-width: 1250px) {
+  .panels-side {
+    flex: 0 0 515px;
+    max-width: 515px;
+  }
+  .details-panel .panel-detail.accident-info{order: 0;}
+  .details-panel .panel-detail.accident-location{order: 1;}
+  .details-panel .panel-detail.accident-description{order: 3;}
+  .details-panel .panel-detail.location-description{order: 4;}
+  .details-panel .panel-detail.defendants-fault{order: 5;}
+  .details-panel .panel-detail.photo{order: 2;}
+}
+@media(max-width: 767px) {
+  .panels-side {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .details-panel .panel-detail {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .details-panel .panel-detail.accident-info{order: 0;}
+  .details-panel .panel-detail.accident-location{order: 2;}
+  .details-panel .panel-detail.accident-description{order: 3;}
+  .details-panel .panel-detail.location-description{order: 4;}
+  .details-panel .panel-detail.defendants-fault{order: 5;}
+  .details-panel .panel-detail.photo{order: 1;}
+  .border-box .top-head.top-tt h2 {max-width: 100% !important;width: 100% !important;}
+}
+
+.flex-basis-unset {
+  flex-basis: unset !important;
+}
+
+.ML5px {
+  margin-left: 5px;
+  padding-left: 0px;
+}
+
+.h-100px {
+  height: 100px !important;
+}
+
+.car-acc-mr-5 {
+  margin-right: 5px;
+}
+
+.defendants-fault .photo .ic::after {
+  background-size: 100% 100%;
+  width: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  height: 60%;
+}
+
+.btn-generate {
+  border: 1px solid var(--primary-50);
+  color: var(--primary-10);
+}
+
+.notes-side .ic-avatar::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_213_2)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.5 -6.10352e-05C22.5028 -6.10352e-05 29.0003 6.49715 29.0003 14.5C29.0003 22.5029 22.5028 29.0001 14.5 29.0001C6.49749 29.0001 0 22.5029 0 14.5C0 6.49715 6.49749 -6.10352e-05 14.5 -6.10352e-05ZM14.5 0.999887C21.9508 0.999887 28.0002 7.04929 28.0002 14.5C28.0002 21.951 21.9508 28.0001 14.5 28.0001C7.04909 28.0001 1.00007 21.951 1.00007 14.5C1.00007 7.04929 7.04909 0.999887 14.5 0.999887Z' fill='%23D3D3D3'/%3E%3Cpath d='M14.5009 28.4994C20.5756 28.4994 25.5002 25.5894 25.5002 21.9997C25.5002 18.4101 20.5756 15.5001 14.5009 15.5001C8.42606 15.5001 3.50146 18.4101 3.50146 21.9997C3.50146 25.5894 8.42606 28.4994 14.5009 28.4994Z' fill='%23D3D3D3'/%3E%3Cpath d='M14.5006 15.4997C17.5379 15.4997 20.0001 13.0372 20.0001 9.99952C20.0001 6.96185 17.5379 4.49933 14.5006 4.49933C11.4632 4.49933 9.00098 6.96185 9.00098 9.99952C9.00098 13.0372 11.4632 15.4997 14.5006 15.4997Z' fill='%23D3D3D3'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_213_2'%3E%3Crect width='29' height='29' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.list-style-disc {
+  list-style-type: disc;
+}
+
+.alert-dismissible .btn-close {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3E%3C/svg%3E") no-repeat;
+  padding: 0.25rem 1rem;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+  background-size: contain;
+  background-position: center center;
+  height: 1.5em;
+  opacity: 0.5;
+  width: 1.5em;
+}
+
+.modal-open .modal.show {
+  display: block;
+}
+
+.weather-conditions p {
+  margin-left: 15px;
+}
+
+.accident-page .placeholder-images .icon-wrap {
+  height: 200px;
+}
+.accident-page .placeholder-images {
+  height: 200px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1px 0 0;
+}
+
+.defendant-photo {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.accident-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#custom-nav-todo {
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+
+.min-h-200 {
+  min-height: 200px;
+}
+.min-h-300 {
+  min-height: 300px;
+}
+
+.border-box .notetable .table-earning thead th {
+  background: var(--primary-60);
+}
+
+
+
+.accident-page .placeholder-images img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.accident-page .weather-title {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.accident-page .defendant-placeholder {
+  width: 255px;
+  overflow: auto;
+  background-color: white;
+  border: 10px solid rgb(165, 175, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.accident-page .details-panel .columnsTitle{
+  line-height: 21px;
+}

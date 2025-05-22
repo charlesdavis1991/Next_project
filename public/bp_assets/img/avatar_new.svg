@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.326392,0,0,0.327101,-0.0209805,-0.0474819)">
+        <path d="M44.489,0.145C69.008,0.145 88.915,20.008 88.915,44.474C88.915,68.94 69.008,88.803 44.489,88.803C19.971,88.803 0.064,68.94 0.064,44.474C0.064,20.008 19.971,0.145 44.489,0.145ZM44.489,3.202C67.317,3.202 85.851,21.696 85.851,44.474C85.851,67.253 67.317,85.746 44.489,85.746C21.661,85.746 3.128,67.253 3.128,44.474C3.128,21.696 21.661,3.202 44.489,3.202Z" style="fill:rgb(241,241,241);"/>
+    </g>
+    <g transform="matrix(1.92129,0,0,1.46026,-13.7385,-11.0854)">
+        <ellipse cx="14.698" cy="22.657" rx="5.725" ry="4.451" style="fill:rgb(241,241,241);"/>
+    </g>
+    <g id="Layer2">
+    </g>
+    <g id="Layer1">
+    </g>
+    <g id="Layer5">
+    </g>
+    <g id="Layer3">
+    </g>
+    <g transform="matrix(1.09772,0,0,1.05126,-1.96099,-3.5901)">
+        <ellipse cx="14.996" cy="12.927" rx="5.01" ry="5.232" style="fill:rgb(241,241,241);"/>
+    </g>
+    <g id="Layer4">
+    </g>
+</svg>

@@ -1,0 +1,220 @@
+.Law-firm-direct-max-width-600px{
+    max-width: 600px !important
+}
+
+.Law-firm-direct-max-width-1100px{
+    max-width: 1100px !important
+}
+
+.Law-firm-direct-margin-top-71px{
+    margin-top: 71px !important
+}
+
+.Law-firm-direct-font-weight-normal-color-rgb-102-text-transform-lowercase{
+    font-weight: normal !important;
+        color: rgb(102, 102, 102) !important;
+        text-transform: lowercase !important;
+}
+
+.Law-firm-direct-margin-right-0px{
+    margin-right: 0px !important
+}
+
+.Law-firm-direct-align-items-center{
+    align-items: center !important
+}
+
+.Law-firm-direct-padding-top-10px{
+    padding-top: 10px !important
+}
+
+.Law-firm-direct-height-auto-width-250px{
+    height: auto !important;
+        width: 250px !important
+}
+
+.Law-firm-direct-height-auto{
+    height: auto !important
+}
+
+.Law-firm-direct-color-black-font-14px{
+    color: black !important;
+        font: 14px !important;
+}
+
+.Law-firm-direct-font-14px-sans-serif{
+    font: 14px sans-serif !important
+}
+
+.Law-firm-direct-color-grey-font-14px-width-100P-text-align-center{
+    color: grey !important;
+        font: 14px !important;
+        width: 100%  !important;
+        text-align: center !important;
+}
+
+.Law-firm-direct-margin-top-0px-margin-bottom-5px-font-14px-sans-serif{
+    margin-top: 0px !important;
+        margin-bottom: 5px !important;
+        font: 14px sans-serif !important;
+}
+
+.Law-firm-direct-padding-4px-5px-color-white{
+    padding: 4px 5px !important;
+        color: white !important;
+}
+
+.Law-firm-direct-text-decoration-none-color-000-background-color-transparent-border-0px{
+    text-decoration: none !important;
+        color: #000 !important;
+        background-color: transparent !important;
+        border: 0px !important;
+}
+
+.Law-firm-direct-float-right{
+    float: right !important
+}
+
+.Law-firm-direct-text-decoration-none{
+    text-decoration: none !important
+}
+
+.Law-firm-direct-width-100P{
+    width: 100% !important
+}
+
+.Law-firm-direct-color-grey-font-size-14px{
+    color: grey !important;
+        font-size: 14px !important;
+}
+
+.Law-firm-direct-position-relative{
+    position: relative !important;
+}
+
+
+
+
+
+
+
+
+
+.Law-firm-padding-top-46px{
+    padding-top: 46px !important
+}
+
+.Law-firm-margin-top-71px{
+    margin-top: 71px !important
+}
+
+.Law-firm-align-items-center{
+    align-items: center !important
+}
+
+.Law-firm-padding-top-50px{
+    padding-top: 50px !important
+}
+
+.Law-firm-height-auto-width-250px{
+    height: auto !important;
+        width: 250px !important
+}
+
+.Law-firm-margin-top-0px-margin-bottom-5px-font-14px-sans-serif{
+    margin-top: 0px !important;
+        margin-bottom: 5px !important;
+        font: 14px sans-serif !important;
+}
+
+.Law-firm-width-100P{
+    width: 100% !important
+}
+
+.Law-firm-color-grey-font-14px-width-100P-text-align-center{
+    color: grey !important ;
+        font: 14px !important;
+        width: 100% !important;
+        text-align: center !important;
+}
+
+.Law-firm-color-grey-font-size-14px{
+    color: grey !important;
+        font-size: 14px !important;
+}
+
+.Law-firm-color-black-font-14px{
+    color: black !important;
+        font: 14px !important;
+}
+
+.Law-firm-font-14px-sans-serif{
+    font: 14px sans-serif !important;
+}
+
+.Law-firm-height-auto{
+    height: auto !important;
+}
+
+.Law-firm-font-weight-normal-color-rgb-102-text-transform-lowercase{
+    font-weight: normal !important;
+        color: rgb(102, 102, 102) !important;
+        text-transform: lowercase !important;
+}
+
+.Law-firm-margin-right-0px{
+    margin-right: 0px !important;
+}
+
+.Law-firm-width-8P-padding-3px-5px{
+    width: 8% !important;
+        padding: 3px 5px !important;
+}
+
+.Law-firm-width-9P-padding-0px{
+    width: 9% !important;
+        padding: 0px !important;
+}
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}
+
+.add-nav-btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+    background: #19395f;
+    border-radius: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    line-height: 1;
+    color: #777;
+    position: relative;
+    font-weight: bold;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    font-size: 14px;   
+    margin-bottom: -1px; 
+}
+
+.overflow-visible{
+    overflow: visible !important;
+}
+.search_filter_dir_label_div{
+    background: #19395f;
+}
+.search_filter_directories_label{
+    margin: 0;
+    min-width: max-content;
+}
+#search_filter_directories{
+    margin-left: 5px;
+}

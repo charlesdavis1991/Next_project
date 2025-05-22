@@ -1,0 +1,82 @@
+.firm-prof-padding-top-46px{
+    padding-top: 46px !important; 
+}
+
+.firm-prof-margin-top-45px{
+    margin-top: 45px !important;
+}
+
+.firm-prof-align-items-center{
+    align-items: center !important;
+}
+
+.firm-prof-padding-top-50px{
+    padding-top: 50px !important;
+}
+
+.firm-prof-height-auto-width-250px{
+    height: auto !important;
+        width: 250px !important;
+}
+
+.firm-prof-margin-top-0px-margin-bottom-5px-font-14px{
+    margin-top: 0px !important;
+        margin-bottom: 5px !important;
+        font: 14px sans-serif !important
+}
+
+.firm-prof-font-weight-normal-color-rgb-102{
+    font-weight: normal !important;
+        color: rgb(102, 102, 102) !important;
+        text-transform: lowercase !important;
+}
+
+.firm-prof-margin-right-0px{
+    margin-right: 0px !important
+}
+
+.firm-prof-width-8P-padding-3px-5px{
+    width: 8% !important;
+        padding: 3px 5px !important 
+}
+
+.firm-prof-width-9P-padding-0px{
+    width: 9% !important;
+        padding: 0px !important 
+}
+
+.firm-prof-width-100P{
+    width: 100% !important
+}
+
+.firm-prof-color-grey-font-14px-width-100P-text-align-center{
+    color: grey !important;
+        font: 14px !important;
+        width: 100% !important;
+        text-align: center !important;
+}
+
+.firm-prof-color-grey-font-size-14px{
+    color: grey !important;
+        font-size: 14px !important;
+}
+
+.firm-prof-height-auto{
+    height: auto !important
+}
+
+.firm-prof-color-black-font-14px{
+    color: black !important;
+        font: 14px !important;
+}
+
+.firm-prof-font-14px-sans-serif{
+    font: 14px sans-serif !important;
+}
+
+.firm-prof-font-14px-color-rgb {
+    font: 14px !important;
+        color: rgb(102, 102, 102) !important;
+}
+
+

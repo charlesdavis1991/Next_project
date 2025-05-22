@@ -1,0 +1,23 @@
+#payee, #memo {
+    width: 100%; /* Make them use all the available width */
+}
+input[type="text"][disabled] {
+    background-color: #fff; /* Make them look like regular text */
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+/* Specific width assignments, these are just examples adjust as per actual content width */
+#date_requested, #date, #cheque_date, #cheque_number, #date_cleared, #amount {
+    max-width: 150px; /* An example width. Adjust based on the longest content these fields might have */
+}
+
+
+
+/* Optional: Consider adding a minimum width to ensure responsiveness */
+@media (max-width: 575.98px) { /* Bootstrap’s small breakpoint */
+    .form-control, .col-sm-2 {
+        width: 100%;
+    }
+}

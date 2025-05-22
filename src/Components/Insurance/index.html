@@ -1,0 +1,196 @@
+<div class="custom-tab mt-3">
+    <nav class="ml-0">
+        <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link Pad8 tab-item active show" id="insurance-company-link" data-toggle="tab" href="#insurance-company-tab" role="tab" aria-controls="insurance-company-tab" aria-selected="true">
+            Company	
+            </a>
+
+            <a class="nav-item nav-link Pad8 tab-item" id="insurance-adjuster-link" data-toggle="tab" href="#insurance-adjuster-tab" role="tab" aria-controls="insurance-adjuster-tab" aria-selected="false">
+            Adjuster
+
+            </a>
+            
+            <a class="nav-item nav-link Pad8 tab-item" id="insurance-supervisor-link" data-toggle="tab" href="#insurance-supervisor-tab" role="tab" aria-controls="insurance-supervisor-tab" aria-selected="false">
+            Supervisor
+
+            </a>
+            <a class="nav-item nav-link Pad8 tab-item" id="insurance-claim-link" data-toggle="tab" href="#insurance-claim-tab" role="tab" aria-controls="insurance-claim-tab" aria-selected="false">
+            Claim
+
+            </a>
+        </div>
+    </nav>
+    <form id="insurance_contacts_form" action="/30/editinsurance_new/3/46/" method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="ZxftAkFdG5ox6tESPCK8B6Lx4L83tY8dCGWHfPZXFGWFoWGR1vAYMAhuRhq96dOE">
+        <!-- Input For block name and insurance id -->
+        <input type="text" name="block_name" hidden="" value="">
+        <input type="text" name="insurance_id" hidden="" value="">
+        <div class="tab-content mt-2" id="nav-tabContent">
+           
+            <div class="tab-pane fade" id="insurance-supervisor-tab" role="tabpanel" aria-labelledby="insurance-supervisor-link">
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" name="search_filter" onclick="search_filter_adjuster(this)" placeholder="Type insurance company name or Adjuster name to search directory then click an entry" class="form-control mb-3">
+                    </div>
+                </div>
+                <div class="row align-items-center form-group">
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey Text-w-NW-INS">First Name :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="Enter first name" value="" class="form-control" name="supervisor_first_name">
+                    </div>
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey Text-w-NW-INS">Last Name :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="Enter last name" value="" class="form-control" name="supervisor_last_name">
+                    </div>
+                </div>
+                <div class="row align-items-center form-group">
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey">Address 1 :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="Address 1" value="" class="form-control" name="supervisor_address1">
+                    </div>
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey">Address 2 :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="Address 2" value="" class="form-control" name="supervisor_address2">
+                    </div>
+                </div>
+                <div class="row align-items-center form-group">
+                    <!-- <div class="col-md-4 text-left">
+                        <span class="d-inline-block text-grey">City</span>
+                    </div> -->
+                    <div class="col-md-5 d-flex">
+                        <span class="d-inline-block white-space-nowrapping text-grey align-self-center m-r-70">City :</span>
+                        <input type="text" name="supervisor_city" placeholder="City" class="ml-1  form-control City-Width-OP">
+                    </div>
+                    <div class="col-md-4 d-flex ">
+                        <span class="d-inline-block white-space-nowrapping text-grey align-self-center m-r-5">State :</span>
+                        <select name="supervisor_state" id="" class="form-control City-Width-OP">
+                            
+                           
+                            
+                            <option value="">Wyoming</option>
+                            
+                        </select>
+                    </div>
+                    <div class="col-md-3 d-flex">
+                        <span class="d-inline-block white-space-nowrapping text-grey align-self-center m-r-5">Zip :</span>
+                        <input type="text" name="supervisor_zip" placeholder="Zip" class="form-control">
+                    </div>
+                </div>
+                <div class="row align-items-center form-group">
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey">Phone :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="(###) ###-####" value="" onkeyup="formatPhoneNumber(this)" class="form-control" name="supervisor_phone">
+                    </div>
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey">Extension :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="(###) ###-####" value="" class="form-control " name="supervisor_extension_field">
+                    </div>
+                </div>
+
+                <div class="row align-items-center form-group">
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey">Fax :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="(###) ###-####" value="" onkeyup="formatPhoneNumber(this)" class="form-control" name="supervisor_fax">
+                    </div>
+                    <div class="col-md-2 text-left">
+                        <span class="d-inline-block text-grey">Email :</span>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" placeholder="Enter Email" value="" class="form-control" name="supervisor_email">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="insurance-claim-tab" role="tabpanel" aria-labelledby="insurance-claim-link">
+            
+                <div class="row align-items-center form-group">
+                    <div class="col-md-3 text-left">
+                        <span class="d-inline-block text-grey">Coverage Type :</span>
+                    </div>
+                    <div class="col-md-9">
+                        <select class="form-control" id="insurance_type_id" required="" name="insurance_type_id">
+
+                            
+                            
+                            <option value="1">Health Insurance</option>
+                            
+                            
+                            
+                            <option value="2">Car Insurance</option>
+                            
+                            
+                            
+                            <option value="3">House Insurance</option>
+                            
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="row align-items-center form-group">
+                    <div class="col-md-3 text-left">
+                        <span class="d-inline-block text-grey">Liability Limit :</span>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="number" placeholder="Enter Liability Limit" value="" class="form-control" name="liability_limit">
+                    </div>
+                </div>
+
+                <div class="row align-items-center form-group">
+                    <div class="col-md-3 text-left">
+                        <span class="d-inline-block text-grey">Liability Limit All :</span>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="number" placeholder="Enter Liability Limit All" value="" class="form-control" name="liability_limit_all">
+                    </div>
+                </div>
+                <div class="row align-items-center form-group">
+                    <div class="col-md-3 text-left">
+                        <span class="d-inline-block text-grey">Policy # :</span>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" placeholder="Enter Policy Number" value="" class="form-control" name="policy_number">
+                    </div>
+                </div>
+
+                <div class="row align-items-center form-group">
+                    <div class="col-md-3 text-left">
+                        <span class="d-inline-block text-grey">Claim # :</span>
+                    </div>
+                    <div class="col-md-9">
+                            <input type="text" placeholder="Enter Claim Number" value="" class="form-control" name="claim_number">
+                    </div>
+                </div>
+
+                <div class="row align-items-center form-group">
+                    <div class="col-md-3 text-left">
+                        <span class="d-inline-block text-grey">Confirmed Date :</span>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="date" placeholder="Enter Confirmed Date" value="" class="form-control" min="1000-01-01" max="9999-12-31" name="confirmed_date">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+
+
+

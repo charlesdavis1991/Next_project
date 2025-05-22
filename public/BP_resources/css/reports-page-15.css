@@ -1,0 +1,349 @@
+.reports-list-div {
+    display: flex;
+}
+
+.info-div {
+    width: 260px;
+    min-height: 181px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.employemnet-info{
+    width: 100% !important;
+}
+
+.employment-divs{
+    width: 360px !important;
+}
+
+.reports-main-container {
+    position: relative;
+    top: 180px;
+    overflow: hidden;
+    /* padding-left: 5px; */
+    margin-top: 5px;
+}
+
+.reports-main-container-modified {
+    position: relative;
+    top: 170px;
+    overflow: hidden;
+}
+
+.report {
+    margin: 0px 0px;
+    margin-bottom: 0px;
+}
+
+.title-bar-main-div {
+    height: 25px;
+    /* width: 89dvw; */
+
+}
+
+.content-boxs {
+    z-index: 10;
+}
+
+.all-titles {
+    left: 0px;
+    padding-left: 2px;
+}
+
+.checklist-div {
+    right: -25px;
+}
+
+.new-report-outer-containr {
+    display: flex;
+    flex-direction: row;
+    /* max-height: "555px"; */
+}
+
+.new-report-inner-containr {
+    max-width: "950px";
+    max-height: "555px";
+}
+
+.edit-report-outer-container {
+    display: "flex";
+    justify-content: "center";
+    max-height: "555px";
+    background-color: "white";
+}
+
+.edit-report-inner-container {
+    min-width: "560px";
+    height: "638px";
+}
+
+
+.search-filter-results {
+    position: "absolute";
+    z-index: 1000;
+    background-color: "#fff";
+    border: "1px solid #ccc";
+    width: "100%";
+    max-height: "150px";
+    overflow-y: "auto";
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.model-new-report {
+    width: 920px !important;
+    position: absolute;
+    right: -227px;
+    top: 2rem;
+}
+
+.inline-row-h-21 {
+    height: 21px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.responsive-width-of-title {
+    width: 100%; /* Default width */
+    overflow: hidden;
+    text-wrap: nowrap;
+  
+    @media (max-width: 1024px) {
+      width: 78%;
+    }
+  
+    @media (min-width: 1025px) and (max-width: 1439px) {
+      width: 64%;
+    }
+  
+    @media (min-width: 1440px) {
+      width: 64%;
+    }
+  }
+
+   
+
+.padding-t-5 {
+    padding-top: 5px;
+}
+
+/* button.c-padding-check {
+    padding: 0px 6.5px 0px 5px !important; 
+
+  } */
+
+
+
+  .info-div-counsel {
+    width: 260px;
+    /* min-height: 181px; */
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-height-for-3p-counsel {
+    max-height: 555px;
+
+}
+
+@media (min-width: 2000px) {
+    .notes-height-for-3p-counsel {
+        max-height: 181px;
+    }
+}
+
+.notes-height-for-3p-experts {
+    max-height: 548px;
+
+}
+
+@media (min-width: 2000px) {
+    .notes-height-for-3p-experts {
+        max-height: 200px;
+    }
+}
+
+.notes-height-for-3p {
+    /* max-height: 608px; */
+    /* max-height: 580px; */
+    max-height: 548px;
+
+}
+
+@media (min-width: 2000px) {
+    .notes-height-for-3p-litigation {
+        max-height: 219px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .notes-height-for-3p {
+        max-height: 181px;
+    }
+}
+
+.notes-height-for-4p {
+    /* max-height: 404px; */
+    max-height: 366px;
+
+}
+
+@media (min-width: 2000px) {
+    .notes-height-for-4p {
+        /* max-height: 202px; */
+        max-height: 185px;
+    }
+}
+
+
+.title-bar-title{
+    z-index: 1;
+    padding-left: 15px !important;
+}
+
+.text-gray-2{
+    color: #dadada;
+}
+
+
+.msg-text{
+    font-size: medium;
+    text-align: center;
+    color: gray;
+}
+
+
+
+.max-1024{
+    max-width: 1024px;
+}
+
+
+.space-x-5 > *:not(:last-child) {
+    margin-right: 5px; /* Equivalent to Tailwind's space-x-2 */
+  }
+
+.genrate-docs-modal{
+    max-width: 1350px;
+}
+
+
+.bg-primary-fixed {
+    background: var(--primary) !important;
+  }
+
+.top-head-fixed h2{
+    font-style: normal !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important; 
+}
+
+.top-head-fixed h2 small{    
+    font-size: 100% !important;
+}
+  
+
+.btn-wrapper-old {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dropdown-h-35px{
+    height: 35px !important;
+}
+
+.dynamic-margin-class {
+    margin-right: 20rem;
+    text-wrap: nowrap;
+  }
+  
+  @media (min-width: 2000px) {
+    .dynamic-margin-class {
+      margin-right: 26rem;
+      text-wrap: nowrap;
+    }
+  }
+
+
+.dynamic-margin-class-2 {
+    margin-right: 5rem;
+    text-wrap: nowrap
+  }
+  
+  @media (min-width: 2000px) {
+    .dynamic-margin-class-2 {
+      margin-right: 11.5rem;
+      text-wrap: nowrap;
+    }
+  }
+
+
+  .info-div-witness-statement-summary {
+    width: 260px;
+    min-height: 181px;
+    max-height: 181px;
+    overflow: hidden;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info-div-3 {
+    width: 260px;
+    /* min-height: 181px; */
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#calculated-dates-div {
+    max-height: 181px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+/* Hide scrollbar for WebKit browsers */
+#calculated-dates-div::-webkit-scrollbar {
+    display: none;
+}
+
+.panels-direction-secondary {
+    flex-direction: column;
+}
+
+@media (min-width: 1679px ) {
+    .panels-direction-secondary {
+        flex-direction: row;
+    }
+}
+
+
+.notes-height-for-defendants {
+    max-height: 750px;
+}
+
+@media (min-width: 1679px) {
+    .notes-height-for-defendants {
+        max-height: 185px;
+    }
+}

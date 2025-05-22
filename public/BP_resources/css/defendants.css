@@ -1,0 +1,290 @@
+.icon-wrap {
+    pointer-events: none;
+
+}
+
+.ic-upload-document {
+    pointer-events: none;
+
+}
+
+p.name {
+    pointer-events: none;
+
+}
+
+/* MUlti Option selector dropdown css */
+.dropdown-defendant {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-arrow {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #555555 transparent transparent transparent;
+    cursor: pointer;
+}
+
+.dropdown-content-defendant {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: scroll;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    top: 40px;
+    right: 0;
+}
+
+.defendant-names {
+    width: 97%;
+    cursor: pointer;
+}
+
+.defendant-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.defendant-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 2px;
+}
+
+.defendant-list li:last-child {
+    border-bottom: none;
+}
+
+.remove-defendant {
+    color: #DDDDDD;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.remove-defendant:hover {
+    color: #FF0000;
+}
+
+.selected {
+    background: #d9d9d9;
+}
+
+
+
+
+.max-width-1060px{
+    max-width: 1060px !important;
+}
+
+.margin-0-15px{
+    margin: 0 15px !important;
+}
+
+.width-236-5px{
+    width: 236.5px !important;
+}
+
+.max-width-1000px{
+    max-width: 1000px !important;
+}
+
+.max-width-1100px{
+    max-width: 1100px !important;
+}
+
+.max-width-100-width-66{
+    max-width: 100% !important;
+        width: 66% !important;
+}
+
+.width-1{
+    width: 1% !important;
+}
+
+.width-6-padding-left-52{
+    width: 6% !important;
+        padding-left: 52px !important;
+}
+
+.width-8{
+    width: 8% !important;
+}
+
+.width-25{
+    width: 25% !important;
+}
+
+.width-42{
+    width: 42% !important;
+}
+
+.height-25px{
+    height: 25px !important;
+}
+
+.margin-0-auto-0-auto{
+    margin: 0 auto 0 auto !important;
+}
+
+.flex-0-0-35{
+    flex: 0 0 35% !important;
+}
+
+.flex-0-0-65-max-width-65{
+    flex: 0 0 65% !important;
+        max-width: 65% !important;
+}
+
+.margin-0-15{
+    margin: 0 15px !important;
+}
+
+.width-171{
+    width: 171px !important;
+}
+
+.width-172{
+    width: 172px !important;
+}
+
+.float-left{
+    float: left !important;
+}
+
+.width-18-padding-0px{
+    width: 18% !important;
+        padding: 0px !important;
+}
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}
+
+.defendant-btns-area .btn-wrapper {
+    margin: 0 109px 0 0;
+}
+
+.defendant-btns-area .defendent-title-row {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+    text-align: center;
+}
+
+.Ext-Align{
+    margin-left: -36px;
+    max-width: 128px;
+}
+
+.Ext-Align-2{
+    margin-left: -10px;
+}
+
+.Rep-PP-Align{
+    text-align: left;
+        line-height: normal;
+        padding-bottom: 0px !important;
+    }
+
+    #addcase .nav-tabs {
+        background: var(--primary-5);
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .tab-item:hover {
+        background: var(--primary-70) !important;
+        color: white !important;
+        z-index: 999 !important;
+    }
+
+        .City-Width-OP {
+            width: 120px;
+            margin-left: 3px;
+        }
+    
+        .State-Align-3 {
+            margin-right: -30px;
+            margin-left: 28px;
+        }
+
+        .City-Width-OP-IC{
+            position: relative;
+            left:56px;
+            width:105px;
+        }
+
+        .City-Width-OP-IC2{
+            width: 105px;
+            margin-left: 30px;
+        }
+
+        .City-Width-OP-IC3{
+            right:5px;
+            position: relative;
+            right:8px;
+        }
+
+        .State-Width-1{
+            position: relative;
+            left: 56px;
+        }
+
+        .Bug-Overlap{
+            display: none;
+            z-index: 2;
+        }
+
+                .Bug-fix-1{
+                    z-index: 1;
+                }
+
+.btn-wrapper-custom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+}    
+.btn-wrapper-custom .btn-primary {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    line-height: 10px;
+    font-size: 14px !important;
+}     
+
+.btn-wrapper-old {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+}

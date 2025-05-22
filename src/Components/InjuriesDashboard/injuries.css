@@ -1,0 +1,59 @@
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.topbarMargin {
+  margin-top: 5px !important;
+}
+
+
+.injury-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1414px) {
+  .injury-legend{
+    margin-left: -80px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .injury-legend{
+    margin-left: 0px;
+  }
+  .injury-legend span {
+    font-size: 10px !important; /* Adjust this value as needed */
+  }
+  .injury-legend .m-r-15-i{
+    margin-right: 7px !important;
+  }
+  .background-color-green-width-14px-height-14px-margin-right-5px {
+    
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 2px !important;
+}
+.background-color-orange-width-14px-height-14px-margin-right-5px {
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 2px !important;
+}
+
+.background-color-4392D3-width-14px-height-14px-margin-right-5px {
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 2px !important;
+}
+
+.background-color-pink-width-14px-height-14px-margin-right-5px {
+   width: 10px !important;
+    height: 10px !important;
+    margin-right: 2px !important;
+}
+.background-color-red-width-14px-height-14px-margin-right-5px{
+   width: 10px !important;
+    height: 10px !important;
+    margin-right: 2px !important;
+
+}
+}

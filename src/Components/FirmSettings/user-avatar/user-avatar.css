@@ -1,0 +1,12 @@
+.firm-settings-user-perms-fs {
+  height: 850px;
+}
+
+.user-upload-class {
+  padding: 10px 15px !important;
+  background-color: #4caf50 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}

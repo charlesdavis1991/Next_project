@@ -1,0 +1,20 @@
+ .icon-wrap {
+     pointer-events: none;
+
+ }
+
+ .ic-upload-document {
+     pointer-events: none;
+
+ }
+
+ p.name {
+     pointer-events: none;
+
+ }
+
+ .client-BarAlign {
+     left: 133px !important;
+     background-color: white !important;
+ }
+ 

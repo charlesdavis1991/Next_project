@@ -1,0 +1,35 @@
+import React from 'react';
+import { Modal,Button } from 'react-bootstrap';
+
+
+const SettlementErrorModal = ({show,handleClose,errorMsg,updateStates}) => {
+    return (
+        <Modal
+        show={show}
+        onHide={()=>{
+            updateStates()
+            handleClose()
+        }}
+        centered
+        size="lg"
+        dialogClassName="custom-check-dialog justify-content-center"
+        >
+        <div class="text-center height-25 p-0 bg-primary-fixed popup-heading-color justify-content-center modal-header"><div class="mx-auto height-25 font-weight-semibold text-uppercase popup-heading-color d-flex align-items-center modal-title h4" id="modal_title" style={{fontSize:"14px",fontWeight:"600"}}>Error</div></div>
+
+        <Modal.Body>
+            <span className='d-inline-block text-center'>{errorMsg}</span>
+            <div className="d-flex justify-content-center align-items-center w-100 m-t-5">
+                <Button variant="secondary" className="height-25" style={{padding:"0px 12px"}}  onClick={()=>{
+                    updateStates()
+                    handleClose()
+                    }}>
+                    Close
+                </Button>
+            </div>
+        </Modal.Body>
+
+        </Modal>
+    )
+}
+
+export default SettlementErrorModal

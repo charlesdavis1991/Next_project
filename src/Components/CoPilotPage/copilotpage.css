@@ -1,0 +1,18 @@
+.Nav-state-2-F {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.copilotstate-columns {
+    column-count: 3;
+    column-gap: 20px;
+    width: 100% !important;
+}
+
+.custom-select-options {
+    color: #000;
+    background-color: #fff;
+  }
+
+  .copilot-tab-pane {
+    height: 550px !important;
+  }

@@ -1,0 +1,17 @@
+.empty-case-item {
+  background-color: var(--primary-15); /* Background color for empty case */
+  border: 0px solid var(--primary); /* Border color for empty case */
+}
+
+.max-width-popup-pinned-case-popup {
+  max-width: max-content;
+}
+
+.content-section {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.modal-custom-content-bg-issset {
+  background-color: transparent;
+}

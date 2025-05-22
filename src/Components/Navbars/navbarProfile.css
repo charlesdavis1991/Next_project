@@ -1,0 +1,212 @@
+.header-blur-show {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 996;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Optional: Add a semi-transparent background */
+}
+.header-wrapper::after {
+  content: "" !important;
+  width: 5px !important;
+  height: 100% !important;
+  background: #fff !important;
+  position: absolute !important;
+  left: 4px !important;
+  top: 0 !important;
+  transform: skew(-12.31deg, 0deg) !important;
+  z-index: 99999 !important;
+}
+
+.top-user-doi::after {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: -6px;
+  top: -3px;
+  transform: skew(-13.31deg, 0deg);
+  z-index: 99999;
+}
+
+.header-avatar-border {
+  border: 2px solid var(--primary-50) !important;
+}
+
+.pop-up-client {
+  display: grid;
+  width: 100%;
+  margin-left: 0;
+  overflow-y: auto;
+  overflow-x: auto !important; /* Allow horizontal scrolling */
+  gap: 0px;
+}
+
+.pop-up-client-details {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.pop-up-client-image {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.pop-up-client-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.pop-up-client-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* .bg-primary {
+  background: var(--primary-4) !important;
+}
+
+.bg-secondary {
+  background: #fff !important;
+} */
+
+.header-wrapper-client {
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  box-sizing: border-box;
+  cursor: pointer;
+  /* background-color: #fff; */
+}
+
+.header-client-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+  background-color: #fff;
+  height: 75px;
+  position: relative;
+  /* clip-path: polygon(12px 0, 95% 0, 98% 100%, 0% 100%); */
+  z-index: 1001;
+}
+
+.temp-header-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+  background-color: transparent;
+  height: 75px;
+  position: relative;
+}
+
+.header-client-image {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.image-container,
+.icon-container {
+  position: relative; /* Position relative to allow absolute positioning of overlay */
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-container img,
+.icon-container i {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%; /* Ensures the image and icon remain circular */
+}
+
+.border-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--primary-50);
+  border-radius: 50%; /* Matches the border radius of the image and icon */
+  pointer-events: none; /* Allows clicking through the overlay */
+  box-sizing: border-box; /* Ensures border width does not affect the element size */
+}
+
+.border-overlay-client{
+  border: 2px solid var(--primary-50);
+  border-radius: 50%; /* Matches the border radius of the image and icon */
+}
+
+.header-client-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.header-top-user-doi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 999;
+  top: 75px;
+  left: -9px;
+  width: 102%;
+  flex-wrap: wrap;
+  /* clip-path: polygon(2% 0, 98% 1px, 100% 100%, 0% 100%) !important; */
+  /* clip-path: polygon(10px 0, 98% 0px, 100% 100%, 1px 100%); */
+  z-index: 1000;
+}
+
+.header-last-accessed-client {
+  position: absolute;
+  top: 125px;
+  background-color: #fff;
+  margin-left: -9px;
+  width: 100vw;
+  max-height: calc(100vh - 125px);
+}
+
+.bg-checkerboard-primary {
+  background: var(--primary-10) !important;
+}
+
+.bg-checkerboard-secondary {
+  background: var(--primary-4) !important;
+}
+
+.bg-checkerboard-primary:hover {
+  background: #fff !important;
+}
+
+.bg-checkerboard-secondary:hover {
+  background: #fff !important;
+}
+
+/* .bg-checkerboard-primary .temp-header-details .header-client-image {
+  background-color: #fff;
+} */

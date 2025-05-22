@@ -1,0 +1,283 @@
+body {
+  font-size: 16px;
+}
+
+.pdfModal {
+  height: auto;
+  width: 100% !important;
+}
+
+.pdfModal .modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.form-group-custom {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add {
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+iframe {
+  height: 80vh;
+  width: 100%;
+}
+
+.injury-legend {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  z-index: 9;
+}
+
+.injury-legend span {
+  margin: 0 5px;
+  color: #fff;
+  font-size: 14px !important;
+  line-height: 16px !important;
+}
+
+.checklist {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.checklist div {
+  height: 25px;
+}
+
+.injury-main-container {
+  border: none !important;
+  display: flex;
+  /* align-items: center; */
+  padding: 0 !important;
+  overflow: none;
+  /* height: 375px !important; */
+  margin-top: 0;
+  border-radius: 0 !important;
+  font-size: 14px !important;
+}
+
+img.svg,
+img.svg-base {
+  height: 375px !important;
+}
+
+thead {
+  color: #777;
+  text-transform: uppercase;
+}
+
+.w-35 {
+  width: 35px !important;
+  padding: 5px 10px !important;
+}
+
+.w-max {
+  width: 50% !important;
+}
+
+td.width100 button {
+  width: 70px !important;
+  height: 25px;
+  line-height: 10px;
+  padding: 0 !important;
+}
+
+.width100 {
+  text-align: center;
+  width: 100px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.table-responsive-c table {
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table-responsive-c td {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 35px !important;
+}
+
+.table-responsive-c thead,
+.table-responsive-c tr,
+.table-responsive-c td {
+  height: 35px !important;
+  font-size: 14px;
+}
+
+.table-responsive-c td div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 25px !important;
+}
+
+.table-responsive-c td {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.table-responsive-c table {
+  table-layout: fixed;
+}
+
+.red-accent-color {
+  accent-color: #ff0000;
+}
+
+.blue-accent-color {
+  accent-color: #4392d3;
+}
+
+.green-accent-color {
+  accent-color: #00ff00;
+}
+
+.orange-accent-color {
+  accent-color: #ffa500;
+}
+
+.checklist input[type="checkbox"] {
+  position: relative;
+  top: 2px;
+}
+
+.color-grey-font-size-14px-text-align-center {
+  color: grey !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+.background-color-green-width-14px-height-14px-margin-right-5px {
+  background-color: #99cf69 !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-right: 5px !important;
+}
+
+.background-color-red-width-14px-height-14px-margin-right-5px {
+  background-color: red !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-right: 5px !important;
+}
+
+.background-color-orange-width-14px-height-14px-margin-right-5px {
+  background-color: orange !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-right: 5px !important;
+}
+
+.background-color-4392D3-width-14px-height-14px-margin-right-5px {
+  background-color: #4392d3 !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-right: 5px !important;
+}
+.background-color-pink-width-14px-height-14px-margin-right-5px {
+  background-color: #ff52a2 !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-right: 5px !important;
+}
+
+.height-500px {
+  height: 500px !important;
+}
+
+.max-height-500px-display-inherit {
+  max-height: 500px !important;
+  display: inherit !important;
+}
+
+.display-flex-justify-content-space-between-width-100 {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.max-height-500px-display-flex-flex-direction-column-flex-wrap-wrap {
+  max-height: 500px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+}
+
+.display-flex-justify-content-space-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.color-red-align-self-flex-end {
+  color: red !important;
+  align-self: flex-end !important;
+}
+
+#spinal-checkboxes input:nth-of-type(odd) {
+  width: 12px;
+}
+.spinal-cord-div {
+  flex-grow: 1 !important;
+}
+@media screen and (max-width: 992px) {
+  #padding-right-10 {
+    padding-right: 10px !important;
+  }
+  .spinal-cord-div {
+    margin-top: 10px;
+  }
+}
+#tb-header th {
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600 !important;
+  padding: 5px 5px !important;
+  color: var(--primary) !important;
+  background-color: var(--primary-10) !important;
+  text-transform: uppercase !important;
+  height: 25px !important;
+  white-space: nowrap !important;
+}
+#width-24 {
+  width: 24px !important;
+  max-width: 24px !important;
+}
+#max-h-25 {
+  width: 25px !important;
+  height: 25px !important;
+  max-height: 25px !important;
+  max-width: 25px !important;
+}
+#injuries-table tr td {
+  height: 25px !important;
+  padding: 0px 5px !important;
+  max-height: 25px !important;
+}
+#injuries-table #provider-td {
+  padding-left: 0 !important;
+}
+.height-19 {
+  height: 19px !important;
+}
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.height-max-content {
+  height: min-content !important;
+}

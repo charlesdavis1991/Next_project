@@ -1,0 +1,20 @@
+.pl-4 {
+    padding-left: 4px;
+  }
+.fw-400 {
+    font-weight: 400;
+}
+
+.flexParent .tt-menu {
+  background: #fff;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.flexParent .tt-suggestion.tt-selectable {
+  cursor: pointer;
+  padding: 7px 10px;
+}
+.flexParent .tt-suggestion.tt-selectable:hover {
+  background: #f2f2f2;
+}

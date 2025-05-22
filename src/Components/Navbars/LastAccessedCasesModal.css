@@ -1,0 +1,27 @@
+.image-container-modal,
+.icon-container-modal {
+  position: relative; /* Position relative to allow absolute positioning of overlay */
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-container-modal img,
+.icon-container-modal i {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%; /* Ensures the image and icon remain circular */
+}
+
+.border-overlay-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-50);
+    border-radius: 50%; /* Matches the border radius of the image and icon */
+    pointer-events: none; /* Allows clicking through the overlay */
+    box-sizing: border-box; /* Ensures border width does not affect the element size */
+  }

@@ -1,0 +1,118 @@
+.sidebar-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: calc(100% - 725px);
+  background-color: var(--primary);
+}
+
+
+.menu-sidebar {
+  overflow: hidden;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: var(--primary);
+  /* Make sure this takes up all the height */
+  /* /* background: #fff; */
+  height: max(100%, 100vh);
+  /* -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease; */
+  top: 0;
+}
+
+.menu-sidebar .logo {
+  background: var(--primary);
+  height: 75px;
+  width: 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* .menu-sidebar .logo img{
+  width: 190px;
+} */
+/* .menu-sidebar__content,
+.navbar-sidebar,
+.navbar__list {
+  overflow: hidden;
+} */
+
+.menu-sidebar__content {
+  position: relative;
+  height: -webkit-calc(100vh - 75px);
+  height: -moz-calc(100vh - 75px);
+  height: calc(100vh - 0px);
+  padding-top: 75px;
+}
+
+.navbar-sidebar {
+  padding: 0;
+  /* background-color: var(--primary); */
+  height: 100%;
+}
+
+.navbar__list>li {
+  height: 35px;
+  font-size: 8px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f1f1f1 !important;
+  position: relative;
+}
+
+.navbar-sidebar .navbar__list li:hover a {
+  color: var(--primary);
+}
+
+.navbar__list>li>a>img {
+  margin-left: 5px;
+}
+
+.navbar__list>li:hover .blueSpace {
+  background-color: #fff !important;
+  height: 33px;
+  border-bottom: 1px solid var(--primary);
+}
+
+.navbar__list>li:hover {
+  background-color: #fff !important;
+}
+
+.navbar-sidebar .navbar__list li.active {
+  background-color: #fff !important;
+  margin-top: 3px;
+  outline: 4px solid var(--primary);
+  margin-bottom: 4px;
+}
+
+.navbar-sidebar .navbar__list li.active .blueSpace {
+  background-color: #fff !important;
+  height: 33px !important;
+  border: 0px !important;
+  z-index: 100;
+}
+
+.blueSpace {
+  width: 5px;
+  height: 35px;
+  background-color: var(--primary);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.navbar-sidebar .navbar__list li.active a {
+  color: var(--primary);
+}
+
+.navbar-sidebar .navbar__list li.active {
+  border: none !important;
+}

@@ -1,0 +1,28 @@
+.logo_wapper {
+  display: block;
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 0%,
+    100% 100%,
+    100% 100%,
+    0% 100%,
+    0% 100%,
+    0% 20%
+  );
+  clip-path: polygon(
+    20% 0%,
+    100% 0%,
+    100% 0%,
+    100% 100%,
+    100% 100%,
+    0% 100%,
+    0% 100%,
+    0% 20%
+  );
+
+  /* background: #19395f; */
+  background: red;
+  /* padding: 25px; */
+  z-index: 1;
+}

@@ -1,0 +1,107 @@
+.firm-settings-user-perms-fs {
+  height: 850px;
+}
+
+.custom-nav-tabs {
+  background-color: var(--primary-5);
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+}
+
+.custom-tab-item {
+  padding: 10px 20px;
+  background-color: var(--primary-5);
+  color: #777;
+  text-align: center;
+  position: relative;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.custom-nav-tabs .custom-tab-item:first-child::before {
+  transform: skew(0deg, 0deg) !important;
+  transition: none !important;
+}
+
+.custom-nav-tabs .custom-tab-item:first-child:hover::after {
+  transform: skew(-11.31deg, 0deg) !important;
+  right: 0px;
+  transition: none !important;
+}
+.custom-nav-tabs .custom-tab-item:last-child:hover::before {
+  transform: skew(11.31deg, 0deg) !important;
+  left: 0px;
+  transition: none !important;
+}
+
+.custom-nav-tabs
+  .custom-tab-item:not(:first-child):not(:last-child):hover::before {
+  transform: skew(11.31deg, 0deg) !important;
+  left: 0px;
+}
+
+/* Skew effect for active tab */
+.custom-tab-item::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 100%;
+  z-index: 0;
+  background: var(--primary-5);
+  transform-origin: bottom left;
+  transform: skew(-11.31deg, 0deg);
+  transition: none !important;
+}
+
+.custom-tab-item::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  height: 100%;
+  z-index: 0;
+  background: var(--primary-5);
+  transform-origin: bottom right;
+  transform: skew(11.31deg, 0deg);
+  transition: none !important;
+}
+
+/* Hover effect */
+.custom-tab-item:hover {
+  background-color: var(--primary) !important;
+  color: #fff;
+}
+
+/* Hover skew effect */
+.custom-tab-item:hover::before,
+.custom-tab-item:hover::after {
+  background-color: var(--primary) !important;
+}
+
+/* Active tab styles */
+.custom-tab-active {
+  background-color: var(--primary-70) !important;
+  color: #fff;
+}
+
+.custom-tab-active::before,
+.custom-tab-active::after {
+  background-color: var(--primary-70) !important;
+}
+
+.custom-tab-active:hover {
+  background-color: var(--primary) !important;
+}
+
+.custom-tab-active:hover::before,
+.custom-tab-active:hover::after {
+  background-color: var(--primary) !important;
+}

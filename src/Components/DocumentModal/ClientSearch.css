@@ -1,0 +1,31 @@
+.document-search-text-color {
+  color: var(--primary-50);
+}
+
+#id-document-padding-important-popup {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#id-document-padding-important-popup-last {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 5px !important;
+}
+
+#id-document-padding-important-popup-first {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 5px !important;
+  padding-right: 0px !important;
+}
+#id-border-radius-important-popup {
+  border-radius: 0px !important;
+}
+
+#id-border-radius-important-popup::placeholder {
+  color: var(--primary-25); /* Replace with actual color code if needed */
+}

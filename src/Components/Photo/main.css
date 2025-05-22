@@ -1,0 +1,114 @@
+.btn-wrapper {
+  justify-content: flex-start;
+}
+
+.img-cover {
+  object-fit: initial;
+}
+
+.gallery-container {
+  margin: 0 0px;
+  overflow: hidden;
+  display: flex !important;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.gallery-container .gallery-box {
+  margin-bottom: 5px;
+  float: left;
+}
+
+.gallery-container .gallery-grid {
+  margin: 0 -2.5px;
+}
+
+.gallery-header .d-flex > *,
+.upload-icon > * {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.gallery-container .gallery-box .gallery-media {
+  height: 205px;
+}
+
+.gallery-container .gallery-box:nth-of-type(odd) .gallery-content {
+  background: var(--primary-4);
+}
+
+.gallery-container .gallery-box:nth-of-type(even) .gallery-content {
+  background: var(--primary-2);
+}
+
+.gallery-container .gallery-media .name {
+  display: none !important;
+  position: absolute;
+}
+
+.gallery-container .gallery-container-group {
+  margin: 0 -2.5px;
+}
+
+.has-multiple-panels .gallery-grid:first-of-type {
+  display: none !important;
+}
+
+#all .hidden-important {
+  display: none !important;
+}
+
+.gallery-header,
+.gallery-container .gallery-sub-header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.gallery-container .gallery-box {
+  flex: 0 0 calc(100% / 2);
+  padding: 0 0 0 5px;
+}
+
+.gallery-container .gallery-box::before {
+  content: "";
+  background: var(--primary-5) !important;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery-container .gallery-box {
+    min-width: 210px;
+    flex: 0 0 calc(100% / 3);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery-container .gallery-box {
+    flex: 0 0 calc(100% / 4);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery-container .gallery-box {
+    flex: 0 0 calc(100% / 5);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .gallery-container .gallery-box .gallery-media {
+    height: 205px;
+    margin: 0 auto;
+    flex: 0 0 calc(100% / 6);
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .gallery-container .gallery-box .gallery-media {
+    flex: 0 0 calc(100% / 7);
+  }
+}

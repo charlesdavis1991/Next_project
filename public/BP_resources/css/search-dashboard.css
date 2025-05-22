@@ -1,0 +1,81 @@
+.seach-tr-padding{
+    padding: 5px 15px !important;
+}
+
+
+.search-row td {
+    padding: 5px 15px !important;
+    height: 35px;
+}
+
+
+.user-desingation-detail .text-darker {
+    white-space: nowrap;
+}
+
+.user-designation {
+    min-width: 150px;
+}
+
+.users-account div{
+    text-align: left;
+}
+.angle-skew-11-custom{
+    font-style: normal !important;
+    transform: skewX(-11.31deg);
+    border-radius: 0px !important;
+  
+}
+
+
+.search-row-custom{
+    padding: 5px 15px !important;
+    height: 35px;
+}
+.search-row-custom-p-r-0{
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    height: 35px;
+}
+.search-row-custom-p-l-0{
+    padding-top: 5px !important;
+    padding-right: 15px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0px !important;
+    height: 35px;
+}
+.text-start-important{
+    text-align: start !important;
+}
+
+.p-r-0-i{
+    padding-right: 0px !important;
+}
+
+.notes-custom{
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    border-width: 1px !important;
+}
+
+.no-result-color{
+    color: #ccc;
+}
+.result-color{
+    color:var(--primary-70) !important;
+}
+
+.tab-icon {
+    filter: grayscale(100%);
+}
+ .result-color:hover{
+    color: white !important;
+}
+
+.h-42{
+    height: 42px;
+}

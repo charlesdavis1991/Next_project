@@ -1,0 +1,26 @@
+/* th {
+  background: var(--primary-10) !important;
+  color: #fff !important;
+} */
+
+.table-earning:not(.tf-table) thead th {
+  padding: 5.3px 5px !important;
+}
+.table-responsive.table--no-card:not(.tf-table-responsive) {
+  border: none !important;
+}
+
+.padding-right-15-flagpage{
+  padding-right: 15px !important;
+}
+.width-table{
+  max-width: 102%;
+  width: 102%;
+}
+
+.fixed-table-header-2 thead th{
+  top: 0px;
+  position: sticky;
+  z-index: 10;
+}
+

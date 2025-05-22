@@ -1,0 +1,84 @@
+/* farrukh code */
+.text-darker {
+  color: #000 !important;
+}
+
+.checklist-pink {
+  width: 302px !important;
+  margin-right: -20px;
+}
+
+.checklist-pink {
+  background-color: #F5E8E9 !important;
+}
+
+.checklist-pink::after {
+  border-top: 52px solid #F5E8E9 !important;
+}
+
+.checklist-pink .double-arrow-down,
+.checklist-pink .green-check {
+  filter: brightness(0) invert(0) !important;
+}
+
+#myDropdown86,
+#myDropdown87 {
+  top: 54px !important;
+  position: absolute;
+}
+
+.checklist-pink {
+  width: 296px !important;
+  margin-right: 6px !important;
+}
+
+.pink-checklist-multi-dropdowns {
+  right: 16px !important;
+  width: 283px !important;
+}
+
+.top-pane {
+  position: absolute;
+  right: 350px;
+  top: -112px;
+}
+
+.top-head h2 {
+  margin-left: -15px;
+  position: relative;
+}
+
+.medical-pg-class{
+  padding-top: 0px !important;
+  margin-top: 18px !important
+}
+.top-pane-class{
+  position:absolute !important;
+  right:355px !important;
+  top:-83px !important;
+  
+}
+.bg-color-f5e{
+  background-color: #F5E8E9 !important;
+}
+.font-20{
+  font-size: 20px !important;
+}
+.vertical-padding-5{
+  padding-top:5px !important;
+  padding-bottom: 5px !important;
+}
+.width-30{
+  width:30px !important;
+}
+.width-1{
+  width:1% !important;
+}
+.collapse-user-class{
+  width:6% !important; 
+  padding-left: 52px !important;
+}
+
+.T-SimpleView-TitleB{
+  text-wrap: nowrap !important;
+}

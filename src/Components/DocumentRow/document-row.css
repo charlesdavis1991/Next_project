@@ -1,0 +1,10 @@
+.btn-hover-document-row:hover {
+  background-color: var(--primary-2) !important;
+  border-color: var(--primary) !important;
+}
+
+@media screen and (max-width: 1230px) {
+  .document-row-wrapping-below-1230px {
+    height: 85px !important;
+  }
+}

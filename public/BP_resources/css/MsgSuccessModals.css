@@ -1,0 +1,48 @@
+.Msg-SMod-border-solid-1px-grey-width-100P-padding-10px{
+    border: solid 1px grey !important;
+        width: 100% !important;
+        padding: 10px !important;
+}
+
+.Msg-SMod-padding-2rem{
+    padding: 2rem !important;
+}
+
+.Msg-SMod-position-absolute-right-14px-background-color-218838-color-white-border-color-218838{
+    position: absolute !important;
+        right: 14px !important;
+        background-color: #218838 !important;
+        color: white !important;
+        border-color: #218838 !important;
+}
+
+.Msg-SMod-background-color-grey-border-color-grey-position-absolute-left-14px{
+    background-color: grey !important;
+        border-color: grey !important;
+        position: absolute !important;
+        left: 14px !important;
+}
+
+.Msg-SMod-width-17P{
+    width: 17% !important;
+}
+
+.Msg-SMod-text-align-center{
+    text-align: center !important;
+}
+
+.Msg-SMod-float-left-width-6P{
+    float: left;
+        width: 6% !important;
+}
+
+.Msg-SMod-float-left-width-90P-font-size-12px{
+    float: left !important;
+        width: 90% !important;
+        font-size: 12px !important;
+}
+
+.Msg-SMod-background-color-grey-border-color-grey {
+    background-color: grey !important;
+        border-color: grey !important;
+}

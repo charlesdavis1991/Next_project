@@ -1,0 +1,41 @@
+.table-treatment:not(.tf-table) thead th {
+  background: var(--primary-10);
+  font-size: 14px;
+  color: var(--primary);
+  vertical-align: middle;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1;
+  padding: 9.3px 5px;
+  white-space: nowrap;
+  height: 25px;
+}
+
+.border-box .table-treatment thead th {
+  padding: 0px 5px;
+  height: 25px;
+  font-size: 14px;
+  /*background: var(--primary-60);*/
+  color: #fff;
+}
+
+.table-treatment:not(.tf-table) tbody tr:nth-of-type(odd) {
+  background-color: var(--primary-2);
+}
+
+.table-treatment:not(.tf-table) tbody tr:nth-of-type(even) {
+  background-color: var(--primary-4);
+}
+
+.table-treatment:not(.tf-table) tbody tr:hover {
+  background-color: #fff;
+}
+
+.table-treatment:not(.tf-table) tbody td {
+  padding: 1px 5px;
+  border: none;
+}
+
+#medicalProviderFinalBalance {
+  padding-right: 10px !important;
+}

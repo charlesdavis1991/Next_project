@@ -1,0 +1,40 @@
+.check-list-div .form-check-label {
+  /* background-color: red !important; */
+  font-size: 14px !important;
+}
+.check-list-div .form-check-input {
+  transform: scale(1) !important;
+}
+.edit-checklist-modal thead tr {
+  background-color: rgb(104, 133, 161);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.edit-checklist-modal thead tr th {
+  font-size: 14px;
+  padding: 6px !important;
+  font-weight: 400;
+}
+.edit-checklist-modal tbody tr:nth-last-of-type(even) {
+  background-color: color(srgb 0.980314 0.984 0.987765);
+}
+.edit-checklist-modal tbody tr:nth-last-of-type(odd) {
+  background-color: color(srgb 0.960627 0.968 0.975529);
+}
+.edit-checklist-modal tbody tr td {
+  font-size: 14px;
+  padding: 6px 0 !important;
+  font-weight: 400;
+  min-height: 35px;
+}
+.check-list-center > div {
+  justify-content: center;
+  align-items: center;
+}
+.check-list-center > div img {
+  margin-right: 6px;
+}
+.fs-14 {
+  font-size: 14px !important;
+}

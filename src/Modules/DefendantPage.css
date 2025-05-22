@@ -1,0 +1,49 @@
+.continuous-tabs {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-defendant-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  height: 100%;
+  padding: 0 20px;
+  cursor: pointer;
+  position: relative; /* For the clip-path */
+  /* transition:
+    background-color 0.3s ease,
+    transform 0.2s ease; */
+}
+
+.defendants-defendant-page {
+  background: var(--primary-90);
+  clip-path: polygon(5% 0, 95% 0, 100% 100%, 0% 100%);
+  left: 20px;
+  z-index: 3;
+}
+
+.insurance-defendant-page {
+  background: var(--primary-80);
+  clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+  left: 10px;
+  z-index: 2;
+}
+
+.counsel-defendant-page {
+  background: var(--primary-70);
+  clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%);
+}
+
+/* .tab-defendant-page:hover {
+  background-color: var(--primary);
+  transform: 0.2 ease;
+  background-color: 0.3s ease;
+} */

@@ -1,0 +1,15 @@
+.even-odd-color-changes li:nth-child(even) {
+  background: var(--primary-4);
+}
+
+.even-odd-color-changes li:nth-child(odd) {
+  background: var(--primary-2);
+}
+
+.even-odd-color-changes-menu-items div:nth-child(even) {
+  background: var(--primary-4);
+}
+
+.even-odd-color-changes-menu-items div:nth-child(odd) {
+  background: var(--primary-2);
+}

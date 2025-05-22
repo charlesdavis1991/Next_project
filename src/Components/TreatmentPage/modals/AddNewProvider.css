@@ -1,0 +1,104 @@
+.custom-modal-new-provider {
+  border-radius: 0px;
+  border: 0px;
+}
+.new-provider-nav-link-hover-effect:hover {
+  z-index: 2;
+}
+
+.fake-rows-new-provider {
+  height: 25px;
+}
+.fake-rows-new-provider:nth-child(even) {
+  background-color: var(--primary-10);
+}
+
+.fake-rows-new-provider:nth-child(odd) {
+  background-color: var(--primary-4);
+}
+
+.search-btn-new-provider {
+  background-color: var(--primary-50);
+  padding-left: 5px;
+  color: var(--white);
+}
+
+.search-btn-new-provider:hover {
+  background-color: var(--green);
+}
+
+.nav-tabs:not(.tf-tabs) .apply-before::before {
+  transform: skew(0deg, 0deg) !important;
+}
+
+.nav-tabs:not(.tf-tabs) .apply-before:hover::before {
+  transform: skew(0deg, 0deg) !important;
+}
+
+.nav-tabs:not(.tf-tabs) .apply-after::after {
+  transform: skew(0deg, 0deg) !important;
+}
+
+.nav-tabs:not(.tf-tabs) .apply-after:hover::after {
+  transform: skew(0deg, 0deg) !important;
+}
+
+.modal .modal-footer .button-padding-footer-new-provider {
+  height: 25px !important;
+}
+
+.padding-outside-btn-new-provider {
+  padding: 5px !important;
+}
+
+.custom-select-new-provider select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
+.custom-select-new-provider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 17px;
+  height: 17px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 17' fill='%2319395f'%3E%3Cpath d='M0.00683594 0H9.20684L17.0069 7.85384L24.807 0H34.007L17.0069 17L0.00683594 0Z' fill='%2319395f'/%3E%3C/svg%3E")
+    no-repeat center;
+  background-size: contain;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+#name-new-provider-column {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+#name-new-provider-column-distance {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+#name-new-provider-column-name {
+  padding-left: 0px !important;
+  padding-right: 5px !important;
+}
+
+#name-new-provider-column-star {
+  padding-left: 5px !important;
+  padding-right: 0px !important;
+}
+
+#phone-padding-tables-new-provider {
+  padding-right: 5px !important;
+}
+
+.padding-button-provider {
+  padding: 5px !important;
+}
+
+.max-1050 {
+  max-width: 1080px;
+}

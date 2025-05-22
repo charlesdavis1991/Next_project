@@ -1,0 +1,4 @@
+.info-panel-button-hover-state:hover {
+  background-color: var(--primary-2) !important;
+  border: 1px solid var(--primary) !important;
+}

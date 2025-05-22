@@ -1,0 +1,296 @@
+ /* styles.css */
+ /* Define the styles for the snackbar */
+ #close-snackbar {
+    color: #fff;
+}
+
+
+.snackbar {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px;
+    border-radius: 4px;
+    z-index: 9999;
+    background-color: #19395f;
+    color: #fff;
+}
+
+
+#nav-tab-account-checks .nav-link {
+    flex-grow: 0;
+    width: 145px;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+
+/* Adjust the width as needed for the first column */
+/* .fixed_column_width th:nth-child(1),
+.fixed_column_width td:nth-child(1) {
+    width: 4% !important; 
+} */
+
+
+/* Adjust the width as needed for the second column */
+/* .fixed_column_width th:nth-child(2),
+.fixed_column_width td:nth-child(2) {
+    width: 8% !important; 
+} */
+
+
+/* Adjust the width as needed for the second column */
+/* .fixed_column_width th:nth-child(3),
+.fixed_column_width td:nth-child(3) {
+    width: 6% !important; 
+} */
+
+/* Adjust the width as needed for the second column */
+/* .fixed_column_width th:nth-child(4),
+.fixed_column_width td:nth-child(4) {
+    width: 9% !important; 
+} */
+
+/* Adjust the width as needed for the second column */
+/* .fixed_column_width th:nth-child(5),
+.fixed_column_width td:nth-child(5) {
+    width: 63% !important; 
+} */
+
+/* Adjust the width as needed for the second column */
+/* .fixed_column_width th:nth-child(6),
+.fixed_column_width td:nth-child(6) {
+    width: 10% !important; 
+} */
+
+
+
+
+.notes-sec-width-19px-height-19px{
+   width: 19px !important;
+       height: 19px !important;
+}
+
+.notes-sec-font-size-small {
+   font-size: small !important;
+}
+
+.notes-sec-max-width-90P{
+   max-width: 90% !important;
+}
+
+.notes-sec-z-index-999999 {
+   z-index: 999999 !important;
+}
+
+.notes-sec-color-black{
+   color: black !important
+}
+
+.notes-sec-white-space-nowrap{
+   white-space: nowrap !important;
+}
+
+.notes-sec-height-25px{
+   height: 25px !important;
+}
+
+.notes-sec-width-8P{
+   width: 8% !important;
+}
+
+.notes-sec-width-42P{
+   width: 42% !important;
+}
+
+.notes-sec-width-6P-padding-left-52px{
+   width: 6% !important;
+       padding-left: 52px !important;
+}
+
+.notes-sec-margin-0-auto-0-auto{
+   margin: 0 auto 0 auto !important;
+}
+
+.notes-sec-position-relative-height-100P{
+   position: relative !important;
+       height: 100% !important;
+}
+
+.notes-sec-border-radius-50P-position-relative-height-100P{
+   border-radius: 50% !important;
+       position: relative !important;
+       height: 100% !important;
+}
+
+.notes-sec-float-right{
+   float: right !important;
+}
+
+.notes-sec-border-solid-1px-grey-width-100P-padding-10px{
+   border: solid 1px grey !important;
+       width: 100% !important;
+       padding: 10px !important;
+}
+
+.notes-sec-background-color-grey-border-color-grey-position-absolute-left-14px{
+   background-color: grey !important;
+       border-color: grey !important;
+       position: absolute !important;
+       left: 14px !important;
+}
+
+.notes-sec-position-absolute-right-14px{
+   position: absolute !important;
+       right: 14px !important;
+}
+
+.notes-sec-padding-2rem {
+   padding: 2rem !important;
+}
+
+.client-BarAlign {
+   left: 133px !important;
+   background-color: white !important;
+}
+.text-lowercase{
+   text-transform: lowercase !important;
+}
+
+.time_table {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis; 
+}
+
+.text-capital{
+   text-transform: capitalize !important;
+}
+.table-div{
+  
+   position:absolute;
+   top:25px;
+}
+.table-div div{
+height:43px !important;
+}
+.table-div .tablediv-child:nth-child(odd):hover{
+  background:#fff !important;
+   }
+   .table-div .tablediv-child:nth-child(even):hover{
+       background:#fff !important;
+        }
+.table-div .tablediv-child:nth-child(odd){
+   background:var(--primary-2) !important;
+}
+.table-div .tablediv-child:nth-child(even){
+   background:var(--primary-4) !important;
+}
+
+#assign_todo_confirmation-modal div .modal-content{
+   margin-left:100px !important;
+   border-radius: 10px 10px 5px 5px !important;
+   border:0 !important;
+}
+.icon-29{
+   width:29px !important;
+   height:29px !important;
+}
+
+
+.notes-nav-tabs {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   overflow: hidden;
+   padding-right: 120px;
+   position: relative;
+}
+
+.custom-event-tab {
+   position: absolute;
+   padding: 5px 15px;
+   color: #fff !important;
+   font-size: 14px;
+   line-height: 1;
+   font-weight: 700;
+   z-index: 2;
+   white-space: nowrap;
+   min-height: 25px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   right: 7px;
+   bottom: 0;
+   background: var(--primary);
+   text-decoration: none !important;
+}
+
+.custom-event-tab:hover {
+    background: var(--primary-70) !important;
+}
+
+.custom-event-tab:before {
+   content: "";
+    display: inline-block;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 100%;
+    z-index: 1;
+    background: var(--primary);
+    transform-origin: bottom left;
+    transform: skew(-11.31deg, 0deg);
+}
+.custom-event-tab:hover:before {
+   content: "";
+    display: inline-block;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 100%;
+    z-index: 1;
+    background: var(--primary-70);
+    transform-origin: bottom left;
+    transform: skew(-11.31deg, 0deg);
+}
+.custom-event-tab:after {
+   content: "";
+    display: inline-block;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    height: 100%;
+    z-index: 1;
+    background: var(--primary);
+    transform-origin: bottom left;
+    transform: skew(11.31deg, 0deg);
+}
+.custom-event-tab:hover:after {
+   content: "";
+   display: inline-block;
+   width: 5px;
+   position: absolute;
+   top: 0;
+   right: -5px;
+   height: 100%;
+   z-index: 1;
+   background: var(--primary-70);
+   transform-origin: bottom left;
+   transform: skew(11.31deg, 0deg);
+}
+
+.transform-skewY-0{
+}
+.transform-skewX-12{
+   transform: skewX(12deg);
+}
+.p-l-2p{
+   padding-left: 2px !important;
+}

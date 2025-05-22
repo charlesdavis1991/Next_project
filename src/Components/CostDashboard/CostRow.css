@@ -1,0 +1,17 @@
+.cost-table.table-earning tbody td.cost-cell {
+    /* height: 25px !important; */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.min-table-cell-width {
+    width: 100px;
+}

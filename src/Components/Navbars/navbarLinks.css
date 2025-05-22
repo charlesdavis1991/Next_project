@@ -1,0 +1,33 @@
+@media screen and (max-width: 1080px) {
+  .navbar-links-container-menu-collapsible {
+    display: none !important;
+  }
+}
+
+.icon-hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-text {
+  position: absolute;
+  left: 30%;
+  transform: translateX(-57%);
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  margin-top: 2px;
+  font-family: "Inter", sans-serif !important;
+  z-index: 10;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.icon-hover-container:hover .hover-text {
+  opacity: 1;
+}

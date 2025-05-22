@@ -1,0 +1,94 @@
+/*TODO: Refactor these duplicate fragments into a single file */
+
+.grid-table {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 100px 1fr 1fr 1fr 1fr 140px 70px 100px 100px 80px 100px 80px;
+    margin: 5px;
+    align-items: stretch;
+    font-size: 14px;
+    width: 100%;
+}
+
+.grid-header {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #777;
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid-cell {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    overflow: clip;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.align-right {
+    justify-content: flex-end;
+}
+
+.align-left {
+    justify-content: flex-start;
+}
+
+.highlighted-background {
+    background-color: var(--primary-5);
+}
+
+.grid-span-2 {
+    grid-column: span 2;
+}
+
+.grid-span-3 {
+    grid-column: span 3;
+}
+
+.bank-account-checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0 5px;
+}
+
+.checkbox-container input {
+    display: block;
+    margin-right: 5px;
+}
+
+.checkbox-container label {
+    margin-bottom: 0
+}
+
+.trust-ledger-btn a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.client-image-2 {
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 8px;
+    border: 1px solid var(--primary-50);
+    z-index: 9;
+}

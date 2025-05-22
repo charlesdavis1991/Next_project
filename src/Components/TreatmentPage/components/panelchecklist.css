@@ -1,0 +1,7 @@
+.checklist-section-treatment-page-after::after {
+  border-left: none !important;
+}
+
+.checklist-section-treatment-page-after {
+  background: transparent !important;
+}

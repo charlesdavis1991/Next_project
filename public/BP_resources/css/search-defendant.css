@@ -1,0 +1,24 @@
+
+
+.search-defendant-color-grey{
+    color: grey !important;
+}
+
+.search-defendant-color-black{
+    color: black !important;
+}
+
+.search-defendant-width-auto-text-align-center{
+    width: auto !important;
+        text-align: center !important;
+}
+
+.search-defendant-width-10P-text-align-center{
+    width: 10% !important;
+        text-align: center !important; 
+}
+
+.search-defendant-width-5P-text-align-center{
+    width: 5% !important;
+        text-align: center !important 
+}

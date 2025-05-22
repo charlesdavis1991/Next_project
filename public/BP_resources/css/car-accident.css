@@ -1,0 +1,75 @@
+@media screen and (min-width: 992px) {
+    .car-accident-max-width-1000px {
+        max-width: 1000px !important;
+    }
+
+    .car-accident-color-000 {
+        color: #000 !important;
+    }
+
+    .car-accident-float-left-margin-right-auto {
+        float: left !important;
+        margin-right: auto !important;
+    }
+
+    .car-accident-max-width-1200px {
+        max-width: 1200px !important;
+    }
+
+    .client-BarAlign {
+        left: 132px !important;
+        background-color: white !important;
+    }
+
+    .Accident-max-width-100p-width-66p {
+        max-width: 100% !important;
+        width: 66% !important;
+    }
+
+    .Centre-Accident1 {
+        text-align: left;
+        line-height: normal;
+        padding-bottom: 0px !important;
+
+    }
+
+    .Ext-Align {
+        margin-left: -36px;
+        max-width: 128px;
+    }
+
+    .Ext-Align-2 {
+        margin-left: -10px;
+    }
+
+    .car-accident-max-width-600px-1 {
+        max-width: 600px !important;
+    }
+
+    .car-accident-max-width-700px {
+        max-width: 700px !important;
+    }
+
+    .car-accident-max-width-600px {
+        max-width: 600px !important;
+    }
+
+    .CC-CSZ-1 {
+        margin-left: 85px;
+    }
+
+    .car-accident-max-width-900px {
+        max-width: 900px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .car-accident #add-vehicle-btn {
+        margin-left: 0 !important;
+        position: relative !important;
+    }
+}
+
+.Text-no-wrap-1{
+    text-wrap: nowrap !important;
+}

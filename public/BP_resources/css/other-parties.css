@@ -1,0 +1,83 @@
+.add-party-btn{
+    z-index:1 !important;
+}
+
+.ins-checklist-pos{
+    margin-right: 13px;
+}
+
+.DefC-Pos{
+    margin-right: 58px;
+}
+
+.City-Width-OP{
+    width:120px;
+    margin-left: 3px;
+}
+
+.State-Align-3{
+    margin-right: -30px;
+    margin-left: 28px;
+}
+
+.Rep-PP-Align{
+    text-align: left;
+    line-height: normal;
+    padding-bottom: 0px !important;
+}
+
+.Health-Ins-Party{
+    position: relative;
+    left:7px;
+   
+}
+
+.Ins-OtherP{
+   
+    width:666px;
+    margin-left: 125px;
+}
+
+.City-Width-OP {
+    width: 120px;
+    margin-left: 3px;
+}
+
+.State-Align-3 {
+    margin-right: -30px;
+    margin-left: 28px;
+}
+
+ .City-Width-OP-IC {
+     position: relative;
+     left: 56px;
+     width: 105px;
+ }
+
+.City-Width-OP-IC2 {
+    width: 105px;
+    margin-left: 30px;
+}
+
+.City-Width-OP-IC3 {
+    right: 5px;
+    position: relative;
+    right: 8px;
+}
+
+.State-Width-1 {
+    position: relative;
+    left: 56px;
+}
+
+.PAR-max-width-650px-OP{
+    max-width: 650px;
+}
+
+.OP-Bootstrap-Custom{
+    margin-right: 1000px;
+}
+
+.m-width-900-2Wit {
+    max-width: 900px;
+}

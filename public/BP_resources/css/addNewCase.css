@@ -1,0 +1,45 @@
+  #myDropdown1 li:hover {
+      background-color: #ccc;
+  }
+
+.addNewCase-padding-top-146px{
+    padding-top: 146px !important
+}
+
+.addNewCase-padding-left-10px{
+    padding-left: 10px !important
+}
+
+.addNewCase-color-000{
+    color: #000 !important
+}
+
+.addNewCase-padding-0-5px{
+    padding: 0 5px !important
+}
+
+.addNewCase-padding-0px{
+    padding: 0px !important
+}
+
+.addNewCase-height-48px{
+    height: 48px !important;
+}
+
+.addNewCase-height-121px{
+    height: 121px !important;
+}
+
+.addNewCase-display-flex-margin-top-45px-margin-left-0px-width-100P{
+    display: flex !important;
+        margin-top: -45px !important;
+        margin-left: 0px !important;
+        width: 100% !important
+}
+
+.addNewCase-text-decoration-none-color-000-background-color-transparent-border-0px{
+    text-decoration: none !important;
+        color: #000 !important;
+        background-color: transparent !important;
+        border: 0px !important
+}

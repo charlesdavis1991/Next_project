@@ -1,0 +1,9 @@
+#caseRolePercentageCheckNewUpdate {
+  flex: 1 !important;
+  max-width: calc(100% - 294px) !important;
+}
+
+#caseRolesPercentageNewUpdateFlexValue {
+  flex: 0 0 200px !important;
+  max-width: 200px !important;
+}

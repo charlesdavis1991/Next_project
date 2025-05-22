@@ -1,0 +1,114 @@
+.modal-width-max-content {
+  max-width: 45%;
+}
+
+.modal-border-radius-edit-provider {
+  border-radius: 0px;
+}
+
+.modal-height-max-content {
+  min-height: 450px;
+}
+
+.treatmentPage-custom-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.treatmentPage-tab-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+  /* padding-left: 5px; */
+  white-space: nowrap;
+  width: 170px;
+  height: 25px;
+  line-height: 25px;
+  background-color: var(--primary-15);
+  color: var(--primary);
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.treatmentPage-tab-item::before,
+.treatmentPage-tab-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 0;
+}
+.treatmentPage-tab-item:first-child::before {
+  content: none;
+  /* Remove the ::before pseudo-element for the first child */
+}
+
+.treatmentPage-tab-item:last-child::after {
+  content: none;
+  /* Remove the ::after pseudo-element for the last child */
+}
+
+.treatmentPage-tab-item::before {
+  /* left: 5px; */
+  right: 100%;
+  border-left: 5px solid transparent;
+  border-top: 25px solid var(--primary-15);
+}
+
+.treatmentPage-tab-item::after {
+  /* right: -5px; */
+  left: 100%;
+  border-right: 5px solid transparent;
+  border-bottom: 25px solid var(--primary-15);
+}
+
+.treatmentPage-tab-item.active {
+  position: relative;
+  content: "";
+  background-color: var(--primary);
+  border-left: 5px var(--primary);
+  color: white;
+}
+.treatmentPage-tab-item.active::before {
+  /* left: 5px; */
+  right: 100%;
+  top: -25px;
+  border-left: 5px solid transparent;
+  border-bottom: 25px solid var(--primary-15);
+}
+
+.treatmentPage-tab-item.active::before,
+.treatmentPage-tab-item.active::after {
+  content: "";
+  border-bottom-color: var(--primary);
+  border-top-color: transparent;
+}
+
+.Treatment-page-modal-form-control {
+  display: block;
+  width: 100%;
+  /* padding: 0.375rem 0.75rem; */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  height: 25px;
+  font-size: 14px;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}

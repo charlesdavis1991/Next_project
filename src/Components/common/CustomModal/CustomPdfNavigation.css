@@ -1,0 +1,11 @@
+.document-pop-up-bottom-bar {
+  background: var(--primary-50) !important;
+}
+
+.document-search-text-color {
+  color: var(--primary-50);
+}
+
+.document-height-25px {
+  height: 25px !important;
+}

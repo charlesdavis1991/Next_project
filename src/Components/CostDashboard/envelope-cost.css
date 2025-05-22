@@ -1,0 +1,58 @@
+.div-tilted-cost {
+  position: relative; /* To position the pseudo-elements */
+  height: 25px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-90) 100%);
+  padding-right: 10px;
+  padding-left: 4px;
+  margin: 0 0 5px 0;
+}
+
+.trapezoid-button:hover {
+  background-color: var(--primary-70) !important;
+  color: #fff;
+}
+
+.trapezoid-button {
+  z-index: "2";
+  margin: "0 8px";
+  transform: "none";
+  position: "relative";
+  height: "25px";
+  color: #777;
+  font-weight: 600;
+  position: relative;
+  height: 25px; /* Fix height for the button */
+  padding: 0 10px; /* Adjust padding if necessary */
+}
+
+.trapezoid-button:hover::before {
+  background-color: var(--primary-70) !important;
+}
+
+.trapezoid-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -5px; /* Adjust the left position */
+  width: 8px;
+  height: 100%;
+  transform: skewX(-11.3deg); /* Tilt the left side of the button */
+}
+
+.trapezoid-button:hover::after {
+  background-color: var(--primary-70) !important;
+}
+
+.trapezoid-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -5px; /* Adjust the right position */
+  width: 8px;
+  height: 100%;
+  transform: skewX(11.3deg); /* Tilt the right side of the button */
+}
+
+.bg-primary {
+  background: var(--primary);
+}

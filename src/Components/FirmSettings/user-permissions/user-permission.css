@@ -1,0 +1,8 @@
+.firm-settings-user-perms-fs {
+  height: 850px;
+}
+
+.row-rotation-firm-settings {
+  transform: rotate(270deg) translateX(45px);
+  width: 100px;
+}

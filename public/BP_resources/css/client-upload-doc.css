@@ -1,0 +1,30 @@
+   .chat-container {
+       margin-top: 4rem;
+       flex: 1 1 auto;
+   }
+
+   .msg-card-body-portal {
+       overflow-y: auto;
+       padding-bottom: 20px;
+       height: 60vh;
+   }
+
+   .card-custom {
+       height: 90%;
+       border-radius: 15px !important;
+       background-color: white;
+       color: black !important;
+   }
+
+   .msg_head_custom {
+       color: black;
+   }
+
+   .nav li {
+       font-weight: bolder;
+       color: #093761 !important;
+   }
+
+   li.active {
+       background-color: #093761 !important;
+   }

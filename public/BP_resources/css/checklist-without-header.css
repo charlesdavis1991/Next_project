@@ -1,0 +1,124 @@
+
+
+.checklist-wo-header-max-width-90{
+    max-width: 90% !important;
+}
+.checklist-wo-header-max-width-80{
+    max-width: 80% !important;
+}
+
+.checklist-wo-header-width-fit-content-margin-bottom-10px{
+    width: fit-content !important;
+        margin-bottom: 10px !important;
+}
+
+.checklist-wo-header-padding-left-0P{
+    padding-left: 0% !important;
+}
+
+.checklist-wo-header-top-0px{
+    top: 0px !important;
+}
+
+.checklist-wo-header-width-18P-padding-0px{
+    width: 18% !important;
+        padding: 0px !important
+}
+
+.checklist-wo-header-position-relative-height-100P{
+    position: relative !important;
+        height: 100% !important;
+}
+
+.checklist-wo-header-float-left{
+    float: left !important;
+}
+
+.checklist-wo-header-white-space-nowrap{
+    white-space: nowrap !important;
+}
+
+.checklist-wo-header-height-25px{
+    height: 25px !important;
+}
+
+.checklist-wo-header-width-8P{
+    width: 8% !important;
+}
+
+
+.checklist-wo-header-width-42P{
+    width: 42% !important;
+}
+
+.checklist-wo-header-width-6P-padding-left-52px{
+    width: 6% !important;
+        padding-left: 52px !important;
+}
+
+.checklist-wo-header-margin-0-auto-0-auto{
+    margin: 0 auto 0 auto !important;
+}
+
+.checklist-wo-header-text-align-center-align-items-center-justify-content-center-display-flex{
+    text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex !important;
+}
+
+.checklist-wo-header-height-63px{
+    height: 63px !important;
+}
+
+.client-BarAlign {
+    /* left: 132px !important; */
+    background-color: white !important;
+}
+
+.additional-instructions .fluid-width {
+    width: 100%;
+}
+.fluid-width-50{
+    width: 50%;
+}
+.fluid-width-60{
+    width: 60%;
+}
+.small-margin{
+    margin: 125px 5px 0 5px;
+}
+.text-indent-20px {
+    text-indent: 20px;
+}
+.item-list .empty-li:nth-child(odd) {
+    background: var(--primary-30);
+}
+
+.item-list .empty-li:nth-child(even) {
+    background: var(--primary-15); 
+}
+
+.white_space-wrap{
+    white-space: wrap !important;
+}
+.assign-task-container{
+    position: relative;
+}
+.assign-task-div{
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+.min-w-145px{
+    min-width: 145px;
+}
+/* @media screen and (max-width: 1450px) and (min-width: 1080px) {
+    .checklist-wo-header-max-width-80 {
+      max-width: 75% !important;
+    }
+  } */

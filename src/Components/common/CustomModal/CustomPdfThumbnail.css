@@ -1,0 +1,29 @@
+.pdf-thumbnail {
+  box-sizing: border-box;
+  height: 100%;
+  width: max-content;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.page-selected {
+  border: 2px solid #777;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.thumbnail-page {
+  position: relative;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  display: flex;
+  margin-bottom: 5px;
+}

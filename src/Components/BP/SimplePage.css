@@ -1,0 +1,8 @@
+.btn-hover-effect-btns:hover {
+  background-color: var(--primary-2) !important;
+  border-color: var(--primary) !important;
+}
+
+.btn-hover-effect-btns {
+  border-color: var(--primary) !important;
+}

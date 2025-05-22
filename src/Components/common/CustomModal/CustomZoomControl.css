@@ -1,0 +1,7 @@
+.zoom-controls .dropdown button {
+  width: 100%;
+}
+
+.zoom-controls-text-buttons-colors {
+  background: var(--primary) !important;
+}

@@ -1,0 +1,49 @@
+.pdf-thumbnail {
+  box-sizing: border-box;
+  height: 100%;
+  width: max-content;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.page-selected {
+  border: 2px solid var(--primary);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.page-selected-red {
+  border: 2px solid red;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.thumbnail-page {
+  position: relative;
+  /* box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.09); */
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.05),
+    0 8px 24px rgba(25, 57, 95, 0.1); /* Soft use of your --primary color */
+
+  display: flex;
+  margin-bottom: 5px;
+}
+
+/* .thumbnail-page.page-selected {
+  border: 2px solid blue;
+  background-color: #f0f8ff;
+} */
+.page-selected:hover {
+  border: 2px solid var(--primary-50);
+  cursor: pointer;
+}

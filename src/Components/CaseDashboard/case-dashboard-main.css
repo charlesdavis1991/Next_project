@@ -1,0 +1,7 @@
+.block-table td div:nth-child(odd) {
+  background-color: var(--primary-2);
+}
+
+.block-table td div:nth-child(even) {
+  background-color: var(--primary-4);
+}

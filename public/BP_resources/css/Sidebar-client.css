@@ -1,0 +1,113 @@
+.name {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.sidebar-profile {
+    width: 170px;
+    border-radius: 20px;
+    mix-blend-mode: normal;
+}
+
+.number {
+    font-size: large;
+    font-weight: bold;
+}
+
+.number-label {
+    font-weight: lighter;
+}
+
+.details {
+    margin-top: 2rem;
+
+}
+
+.details__field:first-of-type {
+    border-top: 2px solid #fff;
+}
+
+.details .details__field {
+    padding: 0.25rem 0;
+    border-bottom: 2px solid #fff;
+
+}
+
+.details .details__field-label {
+    font-weight: bold;
+
+}
+
+.details .details__field-value {
+    font-weight: lighter;
+}
+
+/* Media Query for Medium size screen */
+@media only screen and (max-width: 768px) {
+    nav.navbar-sidebar {
+        display: none;
+    }
+
+}
+
+
+
+aside a {
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    padding: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+aside a:hover {
+    color: #3f5efb;
+    background: #fff;
+    outline: none;
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+aside a i {
+    margin-right: 5px;
+}
+
+aside a:hover::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 100%;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    top: 38px;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    border-top-right-radius: 18px;
+    box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+    margin: 0;
+    padding: 40px 0;
+}
+
+
+.myLogo {
+    height: 51px;
+    width: 100px;
+    margin-left: 20px;
+}

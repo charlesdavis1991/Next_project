@@ -1,0 +1,26 @@
+.max-panel-width-case-page {
+  max-width: 255px;
+  width: 255px;
+}
+
+@media screen and (max-width: 1599px) {
+  .top-panel-case-page-responsiveness {
+    display: none !important;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .top-panel-case-page-responsiveness {
+    display: block !important;
+    width: calc(100% - 520px);
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  .top-panel-first-row-case-page-responsiveness {
+    width: calc(100% - 510px);
+    margin-bottom: 5px
+  }
+}

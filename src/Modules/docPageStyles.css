@@ -1,0 +1,8 @@
+.documents-tabs-container {
+    padding: 5px 0 !important;
+    margin-bottom: 5px !important;
+    position: fixed;
+    width: calc(100vw - 126px);
+    z-index: 1;
+    background: white;
+}

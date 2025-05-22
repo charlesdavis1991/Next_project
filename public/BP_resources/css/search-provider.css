@@ -1,0 +1,24 @@
+
+
+.search-provider-color-grey{
+    color: grey !important;
+}
+
+.search-provider-color-black{
+    color: black !important;
+}
+
+.search-provider-width-auto-text-align-center{
+    width: auto !important;
+        text-align: center !important;
+}
+
+.search-provider-width-10P-text-align-center{
+    width: 10% !important;
+        text-align: center !important;
+}
+
+.search-provider-width-5P-text-align-center{
+    width: 5% !important;
+        text-align: center !important;
+}

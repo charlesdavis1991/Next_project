@@ -1,0 +1,328 @@
+.display-flex-justify-content-flex-start-width-100 {
+  display: flex !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+}
+
+.display-inline-block {
+  display: inline-block !important;
+}
+
+.padding-5px {
+  padding: 5px !important;
+}
+
+.padding-5px-box-shadow-none {
+  padding: 5px !important;
+  box-shadow: none !important;
+}
+
+.margin-0-15px {
+  margin: 0 15px !important;
+}
+
+.width-236-5 {
+  width: 236.5px !important;
+}
+
+.m-width-1000 {
+  max-width: 1000px !important;
+}
+
+.m-width-600 {
+  max-width: 600px !important;
+}
+
+.client-BarAlign {
+  left: 132px !important;
+  background-color: white !important;
+}
+
+.City-Width-OP {
+  width: 120px;
+  margin-left: 3px;
+}
+
+.City-Width-OP-2 {
+  width: 120px;
+  margin-left: 7px;
+}
+
+.State-Align-3 {
+  margin-right: -30px;
+  margin-left: 28px;
+}
+
+.State-Align-3-New {
+  margin-right: -3px;
+  margin-left: 1px;
+}
+
+.Rep-PP-Align {
+  text-align: left;
+  line-height: normal;
+  padding-bottom: 0px !important;
+}
+
+.customWit-ins {
+  width: 666px;
+  margin-left: 66px;
+}
+
+.customWit-ins-2 {
+  margin-left: 30px;
+}
+
+.m-width-900-2Wit {
+  max-width: 900px;
+}
+
+.text-wrap-no-wrap-Wit {
+  text-wrap: nowrap;
+}
+
+.ic-custom-icon-cloud-2 {
+  width: 24px;
+  height: 24px;
+  background: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g><g id="Layer1"><g transform="matrix(2.30099,0,0,1.2469,-215.67,-29.0746)"><ellipse cx="203.47" cy="226.69" rx="43.267" ry="108.932" style="fill:rgb(226,223,233);"/></g><g transform="matrix(3.07687,0,0,1.48704,-179.585,-172.509)"><ellipse cx="139.896" cy="325.615" rx="63.72" ry="57.498" style="fill:rgb(226,223,233);"/></g><g transform="matrix(8.31602,0,0,5.33218,-1049.15,-1022.49)"><ellipse cx="143.734" cy="237.299" rx="4.424" ry="5.527" style="fill:rgb(226,223,233);"/><clipPath id="_clip1"><ellipse cx="143.734" cy="237.299" rx="4.424" ry="5.527"/></clipPath><g clip-path="url(%23_clip1)"><g transform="matrix(0.221843,0,0,0.228991,83.6342,179.707)"><ellipse cx="387.774" cy="250.408" rx="30.817" ry="40.307" style="fill:rgb(226,223,233);"/></g></g></g><g transform="matrix(2.00076,0,0,1.42177,-413.842,-110.349)"><ellipse cx="389.013" cy="245.925" rx="30.684" ry="36.929" style="fill:rgb(226,223,233);"/></g><g transform="matrix(2.02763,0,0,2.43043,-408.031,-493.017)"><ellipse cx="400.2" cy="346.64" rx="19.746" ry="12.567" style="fill:rgb(226,223,233);"/></g><g transform="matrix(8.20151,0,0,4.94594,-538.801,-1424.12)"><ellipse cx="77.806" cy="359.129" rx="5.733" ry="5.936" style="fill:rgb(226,223,233);"/></g></g><path d="M386.9,401.1L113.1,401.1C67.8,401.1 31,364.3 31,319C31,282.2 55.4,250.3 90.2,240.3C98.5,217.8 117.9,201.5 141.2,197.1C147.4,142.6 193.8,100.1 250,100.1C294.7,100.1 335,127.8 351.5,168.7C399.6,171.5 438.2,210 441.4,258C459,273.6 469,295.5 469,319.1C469,364.2 432.2,401.1 386.9,401.1ZM154.2,223.1C135.1,223.1 118.7,236.1 114.3,254.8L112.3,263.6L103.4,265.2C77.3,269.9 58.4,292.5 58.4,318.9C58.4,349.1 83,373.7 113.2,373.7L387,373.7C417.2,373.7 441.8,349.1 441.8,318.9C441.8,301.8 433.8,285.9 419.9,275.4L414.5,271.3L414.5,263.4C414.5,226.4 383.8,195.7 346,195.7L332,196.4L328.9,186.1C318.7,151.5 286.3,127.3 250.2,127.3C204.9,127.3 168.1,164.1 168.1,209.4L168.1,223.1L154.2,223.1Z" style="fill:rgb(165,175,190);fill-rule:nonzero;"/></g><g transform="matrix(1.85095,0,0,1.675,-212.907,-159.193)"><rect x="236.3" y="229" width="27.4" height="117.3" style="fill:rgb(0,153,0);"/></g><g transform="matrix(1.71175,0,0,1.71175,-177.938,-187.823)"><path d="M295.1,287.6L250,242.5L204.9,287.6L185.6,268.2L250,203.8L314.4,268.2L295.1,287.6Z" style="fill:rgb(0,153,0);fill-rule:nonzero;"/></g></g></svg>');
+}
+
+.Wit-overflow-X {
+  overflow-x: hidden;
+}
+
+/* Custom CSS */
+.modal-650w .modal-dialog {
+  max-width: 650px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.height-35 {
+  height: 35px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.save-btn-popup {
+  background-color: #009900 !important;
+  color: white;
+}
+
+.popup-heading-color {
+  color: white;
+}
+
+.modal-1000w .modal-dialog {
+  max-width: 1000px !important;
+}
+.modal-600w .modal-dialog {
+  max-width: 600px !important;
+}
+
+.modal-1200w .modal-dialog {
+  max-width: 1200px !important;
+}
+
+.modal-845w .modal-dialog {
+  max-width: 845px !important;
+}
+.note-width-40 {
+  width: 40%;
+}
+.z-index-container {
+  position: relative; /* Ensure the element is positioned */
+  z-index: 10; /* Set your desired z-index value */
+}
+
+.custom-class{
+  margin-left: -130px !important;
+}
+.notes{
+margin-left: 0%;
+height: 210px;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+                              
+}
+.insuranceNotes{
+  margin-left: 0%;
+height: 190px;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+}
+.witnessPanel{
+  width: 44%;
+}
+.witnessNotes{
+  width: 56%;
+}
+.insurancePanel{
+  width: 44%;
+}
+.insuranceNotes{
+  width:56%;
+}
+@media screen and (max-width:2200px) {
+
+
+.notes{
+height: auto;                 
+}               
+.insuranceNotes{height: auto;}
+}
+@media screen and (max-width:2060px) {
+ .notes{
+margin-left: 0%;
+height: 410px !important;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+                              
+}   
+.insuranceNotes{
+margin-left: 0%;
+height: 380px !important;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+}
+  .custom-class{
+  margin-left: 0px !important;
+}
+         
+.insuranceNotes{height: auto;}
+
+.witnessPanel{
+ width: 34%;
+}
+.witnessNotes{
+  width: 75%;
+}
+.insurancePanel{
+  width: 44%;
+}
+.insuranceNotes{
+  width: 100%;
+  height: auto;
+}
+}
+@media screen and (max-width:1440px) {
+          .notes{
+margin-left: 0%;
+height: 410px;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+                              
+}   
+.insuranceNotes{
+margin-left: 0%;
+height: 780px !important;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+
+}
+  .custom-class{
+  margin-left: 0px !important;
+}
+         
+.insuranceNotes{height: auto;}
+.insurancePanel{
+  width: 20%;
+}
+.insuranceNotes{
+  width: 100%;
+  margin-left: 1px;
+}
+.witnessPanel{
+  width: 44%;
+
+}
+.witnessNotes{
+  width: 60%;  margin-left: -40px;
+}
+}
+@media screen and (max-width:1024px) {
+               
+.notes{
+margin-left: 0%;
+height: 760px !important;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+                              
+}   
+.insuranceNotes{
+margin-left: -0.5%;
+height: 705px;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+} 
+  .witnessPanel{
+  width: 30%;
+}
+.witnessNotes{
+  width: 80%;
+  margin-left: -12px;
+}
+.insurancePanel{
+  width: 27%;
+}
+.insuranceNotes{
+  width: 130%;
+}
+}
+@media screen and (max-width:768px) {
+          .notes{
+margin-left: 0%;
+height: 770px;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+                              
+}   
+.insuranceNotes{
+margin-left: -0px;
+height: 700px !important;
+overflow: scroll;
+padding-bottom: 20px;
+scrollbar-width: none;
+-ms-overflow-style: 0%;
+}     
+  .witnessPanel{
+  width: 37%;
+}
+.witnessNotes{
+  width: 65%;
+  margin-left: -12px;
+}
+.insurancePanel{
+  width: 35%;
+}
+.insuranceNotes{
+  width: 130%; 
+  /* margin-left: -10px; */
+}
+}

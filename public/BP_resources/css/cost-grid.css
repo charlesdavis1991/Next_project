@@ -1,0 +1,223 @@
+.grid-table {
+    display: grid;
+    grid-template-columns: 30px 1fr 150px 1fr 100px 1fr 1fr 1fr 1fr 140px 70px 100px 100px 80px 100px 80px;
+    /* margin: 5px; */
+    align-items: stretch;
+    font-size: 14px;
+}
+
+.grid-header {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #777;
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid-cell {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: clip;
+    padding: 5px;
+
+}
+
+.align-right {
+    justify-content: flex-end;
+}
+
+.align-left {
+    justify-content: flex-start;
+}
+
+.highlighted-background {
+    background-color: var(--primary-5);
+}
+
+.relative-position-top-10px {
+    position: relative;
+    top: 10px;
+}
+
+.settle-check-request-btn {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.settle-check-request-btn button.btn-primary {
+    box-sizing: border-box;
+    width: max-content;
+    padding: 5px 5px;
+    background-color: #0b3d6bea;
+    color: white;
+    border: none;
+    height: 25px !important;
+    line-height: 10px;
+    border-radius: 0 !important;
+}
+
+.grid-span-2 {
+    grid-column: span 2;
+}
+
+.grid-span-3 {
+    grid-column: span 3;
+}
+
+.table-responsive.table--no-card:not(.tf-table-responsive).no-border {
+    border: none;
+}
+
+#nav-tab-costs .nav-link {
+    flex-grow: 0;
+    width: 145px;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+.text-wrapper {
+    position: relative;
+}
+
+.m-l-200 {
+    margin-left: 200px;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+.Cost-float-left-margin-right-auto {
+    float: left !important;
+    margin-right: auto !important;
+}
+
+.tab-item:hover {
+
+    background: var(--primary-70) !important;
+    color: white !important;
+    z-index: 999 !important;
+}
+
+.background-temp {
+    background: rgb(119, 119, 119, 0.07) !important;
+}
+
+#tb-header th {
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 600 !important;
+    padding: 9.3px 5px !important;
+    color: var(--primary) !important;
+    background-color: var(--primary-10) !important;
+    text-transform: uppercase !important;
+    height: 25px !important;
+    white-space: nowrap !important;
+
+}
+#tb-header .cost-td-padding{
+    padding-left:10px !important;
+    padding-right: 10px !important;
+}
+
+.white-space-no {
+    white-space: nowrap !important;
+}
+
+#margin-left-0 button {
+    margin-left: 0 !important;
+}
+
+#height-50 {
+    height: 55px !important;
+}
+
+.height-auto {
+    height: auto !important;
+}
+
+.min-h-382P58 {
+    min-height: 382.58px;
+}
+
+.width-60 {
+    width: 60px !important;
+}
+
+.width-100 {
+    width: 100px !important;
+}
+
+.alert {
+    z-index: 90000000;
+}
+
+.cost-fake-rows {
+    position: absolute;
+    top: 32.58px;
+    left: 0;
+}
+
+.cost-fake-rows div {
+    height: 35px !important;
+}
+
+.cost-fake-row:nth-child(even) {
+    background-color: var(--primary-4);
+}
+
+.cost-fake-row:nth-child(odd) {
+
+    background-color: var(--primary-2);
+}
+
+.cost-fake-row:nth-child(odd):hover, .cost-fake-row:nth-child(even):hover {
+    background: #fff;
+}
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}
+
+.table-earning:not(.tf-table) tbody td.p-x-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.envelope-cost-section-header {
+    background-color: var(--primary);
+    color: white;
+    height: 25px;
+    width: 100%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    padding: 1px 5px;
+}
+
+.envelope-cost-section-header h3 {
+    font-size: 16px;
+}
+.w-150px {
+    width: 150px;
+}
+
+.hidden {
+    visibility: hidden !important;
+}

@@ -1,0 +1,126 @@
+@media screen and (min-width: 992px) {
+    .baseBPCase-max-width-1000px {
+        max-width: 1000px !important;
+    }
+
+    .baseBPCase-color-000 {
+        color: #000 !important;
+    }
+
+    .baseBPCase-float-left-margin-right-auto {
+        float: left !important;
+        margin-right: auto !important;
+    }
+
+    .baseBPCase-max-width-1300px {
+        max-width: 1300px !important;
+    }
+
+    .baseBPCase-margin-0-15px {
+        margin: 0 15px !important;
+    }
+
+    .baseBPCase-width-355-5px {
+        width: 355.5px !important;
+    }
+
+    .baseBPCase-max-width-1200px {
+        max-width: 1200px !important;
+    }
+
+    .baseBPCase-max-width-600px {
+        max-width: 600px !important;
+    }
+
+    .baseBPCase-width-139-5px {
+        width: 139.5px !important;
+    }
+
+    .baseBPCase-max-width-100P-width-66P {
+        max-width: 100%;
+        width: 66% !important;
+    }
+
+    .baseBPCase-width-1P {
+        width: 1% !important;
+    }
+
+    .baseBPCase-width-6P-padding-left-52px {
+        width: 6%;
+        padding-left: 52px !important;
+    }
+
+    .baseBPCase-z-index-1 {
+        z-index: 1 !important;
+    }
+
+    .baseBPCase-color-black-white-space-normal-word-wrap-break-word {
+        color: black !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+
+    .baseBPCase-background-color-rgb-255-255-255 {
+        background-color: rgb(255, 255, 255) !important;
+    }
+
+    .client-BarAlign {
+        left: 132px !important;
+        background-color: white !important;
+    }
+
+    .height-181 {
+        height: 181px;
+        overflow-y: scroll;
+    }
+
+    .City-Width-OP {
+        width: 120px;
+        margin-left: 3px;
+    }
+
+    .State-Align-3 {
+        margin-right: -30px;
+        margin-left: 28px;
+    }
+
+    .Rep-PP-Align {
+        text-align: left;
+        line-height: normal;
+        padding-bottom: 0px !important;
+
+    }
+
+    .Ext-Align-3 {
+        margin-left: -50px;
+        max-width: 159px;
+    }
+
+    .Ext-Align-2 {
+        margin-left: -10px;
+    }
+
+    .baseBPCase-max-width-950px-1 {
+        max-width: 950px !important;
+    }
+
+    .MR-63-Px {
+        margin-right: 63px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .reports-col-table {
+        padding: 0 !important;
+        height: auto !important;
+        max-height: initial !important;
+    }
+
+    .reports-col-table .client_page_note_row {
+        white-space: nowrap;
+    }
+
+    #add-report-btn {
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,11 @@
+.addCourtForms-margin-justify-content-text-align{
+    margin: auto !important;
+        justify-content: center !important;
+        text-align: center !important;
+}
+
+.addCourtForms-margin-justify-content-background-color-224 {
+    margin: auto !important;
+        justify-content: center !important;
+        background-color: rgb(224, 224, 224) !important;
+}

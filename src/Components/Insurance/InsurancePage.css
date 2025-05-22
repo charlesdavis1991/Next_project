@@ -1,0 +1,142 @@
+html{
+    overflow-x: hidden;
+}
+.title-bar h2{
+    color: white !important;
+    margin-left: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.max-800p
+{
+    width: 800px;
+}
+
+@media (min-width: 576px) {
+    .custom-insurance-dialog {
+        max-width: 75% !important;
+        /* margin: 1.75rem auto; */
+    }
+    .custom-insurance-dialogPS {
+        /* max-width: 75% !important; */
+        max-width: 800px;
+        width: 100%;
+        /* margin: 1.75rem auto; */
+    }
+}
+
+
+.p-2-p{
+    padding: 2%;
+}
+
+.ml-2-p{
+    
+    margin-left: 2%;
+    
+}
+
+.pl-3-p
+{
+    padding-left: 3%;
+    
+}
+.ml-4-p{
+    margin-left: 4%;
+}
+
+
+
+.reports-list-div{
+    display: flex;
+}
+
+.info-div{
+    width: 260px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reports-main-container{
+    position: relative;
+    top: 178px;
+    overflow-x: hidden;
+    margin-top: 10px;
+}
+
+.title-bar-main-div{
+    height: 25px;
+    /* width: 89dvw; */
+  
+}
+
+.content-boxs{
+    z-index: 10;
+}
+.all-titles{
+    left: 0px;
+    padding-left: 2px;
+}
+
+.checklist-div{
+    right: -25px;
+}
+
+.new-report-outer-containr{
+    display: flex;
+    flex-direction: row;
+    max-height: "555px";
+}
+.new-report-inner-containr{
+    max-width: "950px";
+    max-height: "555px";
+}
+
+.edit-report-outer-container{
+    display: "flex";
+    justify-content: "center";
+    max-height: "555px";
+    background-color: "white";
+}
+
+.edit-report-inner-container{
+    min-width: "560px";
+    height: "638px";
+}
+
+.auto-complete div:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+ }
+ 
+ 
+ .responsive-width-of-title {
+    width: 100%; /* Default width */
+    @media (max-width: 1024px) {
+      width: 78%;
+    }
+    @media (min-width: 1025px) and (max-width: 1439px) {
+      width: 64%;
+    }
+    @media (min-width: 1440px) {
+      width: 64%;
+    }
+  }
+
+  .custom-font-14px
+  {
+    font-size: 14px !important;
+  }
+
+
+
+
+
+
+
+
+
+

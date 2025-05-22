@@ -1,0 +1,4 @@
+.btn-hover-contact-panel-row:hover {
+  background-color: var(--primary-2) !important;
+  border-color: var(--primary) !important;
+}

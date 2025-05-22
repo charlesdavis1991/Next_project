@@ -1,0 +1,102 @@
+.custom-table thead tr th,
+.custom-table tbody tr td {
+  text-align: start !important;
+  padding: 5px 0px 5px 10px !important;
+}
+.custom-table thead tr th {
+  color: var(--primary);
+  background-color: var(--primary-10) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+.custom-table tbody tr td {
+  font-size: 14px !important;
+  white-space: wrap !important;
+  /* word-break: break-word !important; */
+}
+.custom-table tbody tr:nth-of-type(odd) {
+  background-color: var(--primary-5) !important;
+}
+.custom-table tbody tr:nth-of-type(even) {
+  background-color: var(--primary-10) !important;
+}
+
+.text-start td:not(:first-child),
+.text-start th {
+  text-align: start !important;
+  padding: 5px 10px;
+}
+.loading-container {
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #060472;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.directory-model .form-group {
+  margin-bottom: 5px !important;
+}
+.modal .modal-footer button {
+  width: auto !important;
+  height: 35px !important;
+}
+.directory-tab-box .nav-item {
+  /* height: 25px !important; */
+  white-space: nowrap !important;
+
+  /* overflow: hidden; */
+}
+.main-tables-heading {
+  width: 100%;
+  position: fixed;
+  top: 130px;
+}
+.main-tables-search {
+  width: 100%;
+  position: fixed;
+  top: 160px;
+}
+.main-tables-table {
+  width: 100%;
+  position: fixed;
+  top: 200px;
+}
+.directroy-tables-container .table-responsive {
+  /* height: calc(100vh - 75px + 55px + 25px); */
+  height: calc(100vh - 260px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  table-layout: fixed;
+}
+.directroy-tables-container table thead tr {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+.check-lists-dashboard {
+  padding-top: 40px;
+}
+.CircularProgressbar-text {
+  transform: translate(-15%, 5%);
+}
+.check-list-modal .form-check-input {
+  margin: 0 !important;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

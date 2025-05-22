@@ -1,0 +1,26 @@
+.search-client-margin-top-132px{
+    margin-top: 132px !important;
+}
+
+.search-client-color-grey{
+    color: grey !important;
+}
+
+.search-client-color-black{
+    color: black !important
+}
+
+.search-client-width-auto-text-align-center{
+    width: auto !important;
+        text-align: center !important; 
+}
+
+.search-client-width-10P-text-align-center{
+    width: 10% !important;
+        text-align: center !important;
+}
+
+.search-client-width-5P-text-align-center{
+    width: 5% !important;
+        text-align: center !important 
+}

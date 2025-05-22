@@ -1,0 +1,9 @@
+#modal-btn-send-email {
+  height: 25px !important;
+  padding: 5px !important;
+  border: none !important;
+}
+
+#text-area-send-email {
+  height: 75px !important;
+}

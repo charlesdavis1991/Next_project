@@ -1,0 +1,668 @@
+.btn-wifth {
+  max-width: 70px;
+}
+.btn-directory {
+  /* flex: 1 1 0px; */
+  width: 6.66%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 8px;
+  padding-right: 8px; */
+}
+.btn-directory h6 {
+  font-size: 12px !important;
+}
+.Law-firm-direct-max-width-800px {
+  width: 100% !important;
+}
+
+.generic-popup-scroll {
+  overflow-y: auto !important;
+  padding-top: 120px;
+}
+
+.nav-tabs:not(.tf-tabs) .nav-link:first-of-type {
+  margin-left: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+.nav-tabs:not(.tf-tabs) .nav-link:last-of-type {
+  margin-right: 1px !important;
+  margin-bottom: 0 !important;
+}
+#photosPage .nav-tabs:not(.tf-tabs) .nav-link:first-of-type {
+  margin-left: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+#photosPage .nav-tabs:not(.tf-tabs) .nav-link:last-of-type {
+  margin-right: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+.search_filter_dir_label_div {
+  background: var(--primary);
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.search_filter_directories_label {
+  margin: 0;
+  min-width: max-content;
+}
+
+#search_filter_directories {
+  margin-left: 5px;
+}
+
+.lawfirmdir .nav-tabs .add-nav-btn:hover {
+  background: var(--primary-70) !important;
+}
+
+.H30-LFD {
+  height: 30px !important;
+}
+
+.LFD-margin-top-px {
+  margin-top: 10px !important;
+}
+
+.LFD-Height-47px {
+  height: 47px !important;
+}
+
+.LFD-Height-40px {
+  height: 40px !important;
+}
+
+.PT9-LFD {
+  padding-top: 6px !important;
+}
+
+.nav-item.nav-link {
+  font-size: 4px;
+  padding: 2px 4px;
+  margin-right: 0;
+  line-height: 1;
+  transition:
+    background-color 0.1s ease,
+    margin 0.1s ease,
+    padding 0.1s ease;
+}
+
+.nav-item.nav-link:hover {
+  background-color: #007bff;
+  /* color: white; */
+  z-index: 1;
+  /* margin-left: -1px;
+  margin-right: -1px;
+  padding-left: 4px;
+  padding-right: 4px; */
+}
+
+/* Active tab */
+.nav-item.nav-link.active {
+  background-color: #f8f9fa;
+  border-color: #dee2e6 #dee2e6 #fff;
+  margin-left: -1px;
+  margin-right: -1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  z-index: 1;
+  margin: 0;
+}
+
+.modal-lg {
+  width: 80% !important;
+}
+.employment-modal {
+  width: 60% !important;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+#search_filter_directories {
+  margin-left: 5px;
+  width: 1050px;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+.form-control {
+  display: block;
+  width: 100% !important;
+  /* padding: 0.375rem 0.75rem; */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  height: 35px;
+  font-size: 14px;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+input {
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  cursor: text;
+  background-color: field;
+  margin: 0em;
+  padding: 1px 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding-block: 1px;
+  padding-inline: 2px;
+  input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+  }
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+/* .search-tab-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.active-tab-div {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.search-input-div {
+  flex-grow: 1;
+}
+
+.input {
+  width: 100%;
+} */
+
+.Law-firm-direct-max-width-600px {
+  max-width: 600px !important;
+}
+
+.Law-firm-direct-max-width-800px {
+  max-width: 800px !important;
+}
+
+.Law-firm-direct-max-width-1100px {
+  max-width: 1108px !important;
+}
+
+.max-width-1500px {
+  max-width: 1500px !important;
+}
+
+.max-width-1700px {
+  max-width: 1700px !important;
+}
+
+.max-width-1900px {
+  max-width: 1900px !important;
+}
+
+.Law-firm-direct-max-width-900px {
+  max-width: 900px !important;
+}
+
+.Law-firm-direct-margin-top-71px {
+  margin-top: 71px !important;
+}
+
+.Law-firm-direct-font-weight-normal-color-rgb-102-text-transform-lowercase {
+  font-weight: normal !important;
+  color: rgb(102, 102, 102) !important;
+  text-transform: lowercase !important;
+}
+
+.Law-firm-direct-margin-right-0px {
+  margin-right: 0px !important;
+}
+
+.Law-firm-direct-align-items-center {
+  align-items: center !important;
+}
+
+.Law-firm-direct-padding-top-10px {
+  padding-top: 10px !important;
+}
+
+.Law-firm-direct-height-auto-width-250px {
+  height: auto !important;
+  width: 250px !important;
+}
+
+.Law-firm-direct-height-auto {
+  height: auto !important;
+}
+
+.Law-firm-direct-color-black-font-14px {
+  color: black !important;
+  font: 14px !important;
+}
+
+.Law-firm-direct-font-14px-sans-serif {
+  font: 14px sans-serif !important;
+}
+
+.Law-firm-direct-color-grey-font-14px-width-100P-text-align-center {
+  color: grey !important;
+  font: 14px !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.Law-firm-direct-margin-top-0px-margin-bottom-5px-font-14px-sans-serif {
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
+  font: 14px sans-serif !important;
+}
+
+.Law-firm-direct-padding-4px-5px-color-white {
+  padding: 4px 5px !important;
+  color: white !important;
+}
+
+.Law-firm-direct-text-decoration-none-color-000-background-color-transparent-border-0px {
+  text-decoration: none !important;
+  color: #000 !important;
+  background-color: transparent !important;
+  border: 0px !important;
+}
+
+.Law-firm-direct-float-right {
+  float: right !important;
+}
+
+.Law-firm-direct-text-decoration-none {
+  text-decoration: none !important;
+}
+
+.Law-firm-direct-width-100P {
+  width: 100% !important;
+}
+
+.Law-firm-direct-color-grey-font-size-14px {
+  color: grey !important;
+  font-size: 14px !important;
+}
+
+.Law-firm-direct-position-relative {
+  position: relative !important;
+}
+
+.Law-firm-padding-top-46px {
+  padding-top: 46px !important;
+}
+
+.Law-firm-margin-top-71px {
+  margin-top: 71px !important;
+}
+
+.Law-firm-align-items-center {
+  align-items: center !important;
+}
+
+.Law-firm-padding-top-50px {
+  padding-top: 50px !important;
+}
+
+.Law-firm-height-auto-width-250px {
+  height: auto !important;
+  width: 250px !important;
+}
+
+.Law-firm-margin-top-0px-margin-bottom-5px-font-14px-sans-serif {
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
+  font: 14px sans-serif !important;
+}
+
+.Law-firm-width-100P {
+  width: 100% !important;
+}
+
+.Law-firm-color-grey-font-14px-width-100P-text-align-center {
+  color: grey !important ;
+  font: 14px !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.Law-firm-color-grey-font-size-14px {
+  color: grey !important;
+  font-size: 14px !important;
+}
+
+.Law-firm-color-black-font-14px {
+  color: black !important;
+  font: 14px !important;
+}
+
+.Law-firm-font-14px-sans-serif {
+  font: 14px sans-serif !important;
+}
+
+.Law-firm-height-auto {
+  height: auto !important;
+}
+
+.Law-firm-font-weight-normal-color-rgb-102-text-transform-lowercase {
+  font-weight: normal !important;
+  color: rgb(102, 102, 102) !important;
+  text-transform: lowercase !important;
+}
+
+.Law-firm-margin-right-0px {
+  margin-right: 0px !important;
+}
+
+.Law-firm-width-8P-padding-3px-5px {
+  width: 8% !important;
+  padding: 3px 5px !important;
+}
+
+.Law-firm-width-9P-padding-0px {
+  width: 9% !important;
+  padding: 0px !important;
+}
+
+.client-BarAlign {
+  left: 132px !important;
+  background-color: white !important;
+}
+
+.add-nav-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+  background: #19395f;
+  border-radius: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  line-height: 1;
+  color: #777;
+  position: relative;
+  font-weight: bold;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  font-size: 14px;
+  margin-bottom: -1px;
+}
+
+.overflow-visible {
+  overflow: visible !important;
+}
+.search_filter_dir_label_div {
+  background: var(--primary);
+}
+#search_filter_directories {
+  margin-left: 5px;
+}
+
+.ML150px-LFD {
+  margin-left: 150px !important;
+}
+
+.W130px-LFD {
+  width: 130px !important;
+}
+
+.W130-PR-L8PX {
+  width: 130px !important;
+  position: relative;
+  left: 4px;
+}
+
+.W130px-LFD-2 {
+  width: 130px !important;
+}
+
+.dispay-none-LFD {
+  display: none !important;
+}
+
+.PRL15-B1 {
+  position: relative;
+  left: 15px;
+  bottom: 1px;
+}
+
+.PRL30px {
+  position: relative;
+  left: 30px;
+}
+
+.H30-LFD {
+  height: 30px !important;
+}
+.LFD-margin-top-px {
+  margin-top: 10px !important;
+}
+
+.LFD-Height-47px {
+  height: 47px !important;
+}
+
+.LFD-Height-40px {
+  height: 40px !important;
+}
+
+.PT9-LFD {
+  padding-top: 6px !important;
+}
+
+/* inline to external CSS */
+
+.add-nav-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+  background: var(--primary);
+  border-radius: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  line-height: 1;
+  color: #777;
+  position: relative;
+  font-weight: bold;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  font-size: 14px;
+  margin-bottom: -1px;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.lawfirmdir .nav-tabs .add-nav-btn:hover {
+  background: var(--primary-70) !important;
+}
+
+#add_litigationact_modal .modal-content {
+  min-height: 635px;
+}
+#edit_litigationact_modal .modal-content {
+  min-height: 635px;
+}
+
+.H28px {
+  height: 28px !important;
+}
+
+.LFD-ML-5 {
+  margin-left: 5px;
+}
+
+.footer-directry {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0;
+  width: 100% !important;
+  z-index: 100000 !important;
+}
+.fotter-content-directory {
+  background-color: var(--primary);
+  height: 25px !important;
+  width: 100%;
+}
+
+.custom-table-directory thead tr th {
+  text-align: center !important;
+  font-size: 14px !important;
+  padding: 0px 0px 1px 10px !important;
+  height: 25px !important;
+  font-weight: 600;
+}
+#check-list-table #check-list-table-head #check-list-table-row th {
+  text-align: center !important;
+}
+.custom-table-directory .text-nowrap {
+  overflow-wrap: normal !important;
+  white-space: nowrap !important;
+}
+.custom-table-directory tbody tr td {
+  padding: 5px 5px 5px 5px !important;
+}
+.custom-table-directory tbody tr td:not(:first-child) {
+  text-align: center !important;
+}
+
+.custom-table-directory thead tr th {
+  color: var(--primary);
+  background-color: var(--primary-10) !important;
+  /* font-size: 12px !important; */
+  font-weight: 600 !important;
+}
+.width-36 {
+  width: 36.5px !important;
+  min-width: 36.5px !important;
+  max-width: 36.5px !important;
+  text-align: center;
+}
+
+.custom-table-directory tbody tr td {
+  font-size: 14px !important;
+  white-space: wrap !important;
+}
+.custom-table-directory tbody tr:nth-of-type(odd) {
+  background-color: var(--primary-5) !important;
+}
+.custom-table-directory tbody tr:nth-of-type(even) {
+  background-color: var(--primary-10) !important;
+}
+.fixed-table-layout {
+  table-layout: fixed !important;
+}
+.fixed-table-layout thead tr th {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+/* 
+.modal-lg .modal-content .modal-body p{
+  color: white !important;
+} */
+.custom-table-directory tbody tr.filtered-row.odd {
+  background-color: var(
+    --primary-5
+  ) !important; /* Your custom color for odd rows */
+}
+
+.custom-table-directory tbody tr.filtered-row.even {
+  background-color: var(
+    --primary-10
+  ) !important; /* Your custom color for even rows */
+}
+
+.custom-input-like {
+  border: 1px solid #ced4da; /* Same border as an input */
+  border-radius: 0.1rem; /* Rounded corners */
+  padding: 0.375rem 0.75rem; /* Input padding */
+  background-color: #ffffff; /* Light grey background */
+  color: #000000; /* Text color */
+  min-height: 38px; /* Minimum height to match input */
+  line-height: 1.5; /* Line height for consistent text size */
+}
+
+.overflow-hidden-important {
+  overflow: hidden !important;
+}
+
+.file-upload-area {
+  height: 200px;
+  background-color: #f8f9fa;
+}
+
+.file-upload-area:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.width-25 {
+  width: 25px !important;
+  min-width: 25px !important;
+  max-width: 25px !important;
+}
+
+thead tr th.no-padding {
+  padding: 0 !important;
+}

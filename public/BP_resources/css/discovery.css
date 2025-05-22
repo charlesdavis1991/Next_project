@@ -1,0 +1,200 @@
+       .icon-wrap {
+           pointer-events: none;
+
+       }
+
+       .ic-upload-document {
+           pointer-events: none;
+
+       }
+
+       p.name {
+           pointer-events: none;
+
+       }
+
+       .discovery-max-width-1000px{
+        max-width: 1000px !important;
+       }
+
+       .discovery-max-width-1200px{
+        max-width: 1200px !important;
+       }
+
+       .discovery-flex-0-0-14-P{
+        flex: 0 0 14% !important;
+       }
+
+       .discovery-flex-0-0-21-5-P{
+        flex: 0 0 21.5% !important;
+       }
+
+       .discovery-flex-0-0-22-5-P{
+        flex: 0 0 22.5% !important;
+       }
+
+
+       .discovery-flex-0-0-25-P{
+        flex: 0 0 25% !important;
+       }
+
+     .discovery-flex-0-0-27-P{
+        flex: 0 0 27% !important;
+     }
+
+
+       .discovery-flex-0-0-30-P{
+        flex: 0 0 30% !important;
+       }
+
+    
+    .discovery-flex-0-0-22-5P-max-width-23P{
+        flex: 0 0 22.5% !important;
+            max-width: 23% !important;
+    }
+
+       .discovery-color-777{
+        color: #777 !important;
+       }
+
+       .discovery-color-000{
+        color: #000 !important;
+       }
+
+       .discovery-color-093761{
+        color: #093761 !important;
+       }
+
+     .discovery-width-75-P{
+        width: 75% !important;
+     }
+
+       .discovery-width-79px {
+           width: 79px;
+       }
+
+    .discovery-width-91px{
+        width: 91px !important;
+    }
+
+    .discovery-width-300px{
+        width: 300px !important;
+    }
+    
+       .discovery-width-auto{
+        width: auto !important;
+       }
+
+       .discovery-min-width-270px{
+        min-width: 270px !important;
+       }
+
+       .discovery-width-border-bottom-margin-bottom-text-align-display{
+        width: 330px !important;
+            border-bottom: 1px solid #ccc !important;
+            margin-bottom: 5px !important;
+            text-align: right !important;
+            display: inline-block !important;
+       }
+
+       .discovery-width-border-bottom-margin-bottom-text-align-inline-block-margin-right-position-top-right{
+        width: 330px !important;
+            border-bottom: 1px solid #ccc !important;
+            margin-bottom: 5px !important;
+            text-align: right !important;
+            display: inline-block !important;
+            margin-right: 0% !important;
+            position: absolute !important;
+            top: 22% !important;
+            right: 2% !important;
+       }
+
+       .discovery-margin-bottom-font-size-17px{
+        margin-bottom: 0 !important;
+            font-size: 17px;
+       }
+
+       .discovery-font-size-24px-margin-bottom-1px{
+        font-size: 24px !important;
+            margin-bottom: 1px !important;
+       }
+
+       .discovery-font-size-30px-margin-bottom-1px{
+        font-size: 30px !important;
+            margin-bottom: 1px !important;
+       }
+
+       .discovery-width-20P-display-inline-block{
+        width: 20% !important;
+            display: inline-block !important;
+       }
+
+       .discovery-display-inline-block{
+        display: inline-block !important;
+       }
+
+       .discovery-margin-right-auto{
+        margin-right: auto !important;
+       }
+
+       .discovery-margin-left-auto-margin-right-15px{
+        margin-left: auto !important;
+            margin-right: 15px !important;
+       }
+
+       .discovery-float-left-margin-right-auto{
+        float: left !important;
+            margin-right: auto !important;
+       }
+
+       .discovery-float-right-background-color-var{
+        float: right !important;
+            background-color: var(--primary) !important;
+       }
+
+       .discovery-padding-top-0px{
+        padding-top: 0px !important
+       }
+
+       .discovery-padding-5px-border-5px-solid-ccc-margin-top{
+        padding: 5px !important;
+            border: 5px solid #ccc !important;
+            margin-top: 5px !important;
+       }
+
+       .discovery-cursor-pointer-position-absolute-right-9-7P-float-right{
+        cursor: pointer !important;
+            position: absolute !important;
+            right: 9.7% !important;
+            float: right !important;
+       }
+
+       .discovery-cursor-pointer-margin-top-45px-float-right{
+        cursor: pointer !important;
+            margin-top: 45px !important;
+            float: right !important;
+       }
+
+       .discovery-flex-grow-100{
+        flex-grow: 100 !important;
+       }
+
+       .discovery-flex-0-0-auto-width-auto{
+        flex: 0 0 auto !important;
+            width: auto !important;
+       }
+
+           .client-BarAlign {
+               left: 132px !important;
+               background-color: white !important;
+           }
+
+           .Disc-Lit-PP-1{
+            margin-left: 745px; 
+            margin-bottom: 50px;    
+            margin-top: -60px;
+           }
+           
+           .SLT-Align{
+            margin-bottom: -105px;
+           }

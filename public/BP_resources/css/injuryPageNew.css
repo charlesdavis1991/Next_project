@@ -1,0 +1,90 @@
+.action-bar .text-wrapper-i {
+    padding-right: 48px;
+    height: 100%;
+    position: relative;
+    padding-left: 14px !important;
+}
+
+.action-bar .text-wrapper-i::before {
+    content: "";
+    width: 7.2px;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    left: -3px;
+    top: 0;
+  }
+
+.m-r-15-i {
+    margin-right: 15px;
+}
+
+.finalModal-p {
+    font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+    .injury-img-none {
+        display: none;
+    }
+  }
+
+/*.right-siderbar {
+    display: none !important;
+}*/
+
+.dropdown-menu {
+    display: block !important;
+}
+
+.has-sub-dropdown .dropdown {
+    overflow: visible !important;
+}
+
+.pdftoolbar button,
+.pdftoolbar label.button,
+.pdftoolbar a.button {
+  min-width: 26px;
+  height: 28px;
+  border: none;
+  padding: 2px 4px 0;
+  margin: auto 1px;
+  border-radius: 2px;
+  line-height: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.maindoc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ml-checkbox {
+    margin-left: -0.25rem !important;
+}
+
+.thumbnails .thumbnail.selected {
+    border: 2px solid #777;
+    border-radius: 2px;
+  }
+
+.thumbnails {
+    width: 153px !important;
+}
+
+.react-pdf__Page{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09) !important;
+  }
+
+
+.injury-m-l-65 {
+    margin-left: 65px;
+}
+
+.modal-lg .modal-content .modal-body p.injury-color-white {
+    color: #fff !important;
+}
+

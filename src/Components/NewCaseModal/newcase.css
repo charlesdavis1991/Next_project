@@ -1,0 +1,142 @@
+.newcasemodalhuz {
+  .closeicon:hover {
+    cursor: pointer;
+  }
+
+  .newcasemodalhuz .modal-dialog {
+    width: calc(100vw - 40px);
+    max-width: calc(100vw - 40px);
+    margin: 0 auto;
+  }
+
+  .newcasemodalhuz .modal-content {
+    height: calc(100vh - 40px);
+    max-height: calc(100vh - 40px);
+    /* overflow-y: auto; */
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    /* background-color: black; */
+    /* Adjust height based on your header and footer */
+  }
+
+  .tab-content-new-case {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+
+  .fixed-buttons {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background: white;
+  }
+
+  .active-tab {
+    z-index: 999 !important;
+  }
+
+  .nav-link:not(.active-tab):hover {
+    z-index: 999 !important;
+  }
+
+
+  .scrollable-content {
+    /* max-height: 400px; */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+
+    .row {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
+
+  }
+
+  /* Hide the scrollbar for Chrome, Safari, and Edge */
+  .scrollable-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  /* Hide scrollbar for Firefox */
+  .scrollable-content {
+    scrollbar-width: none;
+  }
+
+  /* Hide scrollbar for IE, Edge */
+  .scrollable-content {
+    -ms-overflow-style: none;
+  }
+
+  .intake-save:hover {
+    cursor: pointer;
+  }
+
+  /* .nav-tabs:not(.tf-tabs) .nav-link:first-of-type::before {
+    transform: none !important;
+  }
+
+  .nav-tabs:not(.tf-tabs) .nav-link.active::before,
+  .nav-tabs:not(.tf-tabs) .nav-link:hover::before {
+    transform: skew(-8.51deg, 0deg) !important;
+  } */
+
+  .required-aes {
+    color: red;
+  }
+
+  .haddress2 {
+    .form-control {
+      border: 1px solid #ced4da !important;
+    }
+  }
+
+  .tabclient {
+    .form-control {
+      border: 1px solid #ced4da !important;
+    }
+
+    .haddress2.form-control {
+      border: 1px solid #ff8f8f !important;
+    }
+  }
+
+
+}
+
+.hawithoutbg.form-control {
+  background-color: black;
+}
+
+.newcasemodalhuz2 {
+
+  .newcasemodalhuz2 .modal-content {
+    height: calc(100vh - 800px);
+    max-height: calc(100vh - 800px);
+    /* overflow-y: auto; */
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 800px);
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    /* Adjust height based on your header and footer */
+  }
+
+  .modal-footer {
+    justify-content: flex-end !important;
+  }
+}

@@ -1,0 +1,58 @@
+
+.flagged-cases-border-solid-1px-grey-width-100P-padding-10px{
+    border: solid 1px grey !important;
+        width: 100% !important;
+        padding: 10px !important;
+}
+
+.flagged-cases-padding-2rem{
+    padding: 2rem !important;
+}
+
+.flagged-cases-position-absolute-right-218838{
+    position: absolute !important;
+        right: 14px !important;
+        background-color: #218838 !important;
+        color: white !important;
+        border-color: #218838 !important;
+}
+
+.flagged-cases-background-color-position-left{
+    background-color: grey !important;
+        border-color: grey !important;
+        position: absolute !important;
+        left: 14px !important;
+}
+
+.flagged-cases-width-17P{
+    width: 17% !important;
+}
+
+.flagged-cases-text-align-center{
+    text-align: center !important;
+}
+
+.flagged-cases-float-left-width-6P{
+    float: left !important;
+        width: 6% !important;
+}
+
+.flagged-cases-float-left-width-90P-font-size-12px{
+    float: left !important;
+        width: 90% !important;
+        font-size: 12px !important;
+}
+
+.flagged-cases-background-color-grey-border-color-grey{
+    background-color: grey !important;
+        border-color: grey !important;
+}
+
+.flagged-cases-width-45px{
+    width: 45px !important;
+}
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}

@@ -1,0 +1,12 @@
+.cf-row:nth-of-type(odd) {
+  background-color: var(--primary-5) !important;
+}
+
+.cf-row:nth-of-type(even) {
+  background-color: var(--primary-10) !important;
+}
+
+.cf-col {
+  padding: 5px 5px 5px 5px !important;
+}
+

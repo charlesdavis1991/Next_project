@@ -1,0 +1,17 @@
+.selectedDoc {
+    background-color: #FFFFFF !important;
+}
+
+
+@media (min-width: 576px) {
+    .custom-document-dialog {
+        max-width: 75% !important;
+        /* margin: 1.75rem auto; */
+    }
+}
+
+
+.doc-table-body tr:hover{
+    cursor: pointer;
+   
+}

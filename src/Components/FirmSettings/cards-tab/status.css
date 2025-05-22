@@ -1,0 +1,64 @@
+.status-button-cards-tab {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.status-button-cards-tab.active {
+  border-color: #28a745;
+}
+
+.status-text-cards-tab {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.active-text-cards-tab {
+  color: #28a745;
+  transform: translateX(-100%);
+}
+
+.inactive-text-cards-tab {
+  color: #dc3545;
+  transform: translateX(0);
+}
+
+.status-button-cards-tab.active .active-text-cards-tab {
+  transform: translateX(0);
+}
+
+.status-button-cards-tab.active .inactive-text-cards-tab {
+  transform: translateX(100%);
+}
+
+.slider-indicator-cards-tab {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  height: calc(100% - 8px);
+  width: 3px;
+  background-color: #dc3545;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.status-button-cards-tab.active .slider-indicator-cards-tab {
+  background-color: #28a745;
+  transform: translateX(89px);
+}

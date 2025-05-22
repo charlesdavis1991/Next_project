@@ -1,0 +1,14 @@
+.checklist-section-dropdown-header-checklist::after { 
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    border-top: 50px solid var(--primary-80);
+    border-left: 10px solid transparent !important;
+    outline: none;
+    width: 0;
+    display: block;
+    z-index: -1;
+    border-top-color: var(--primary) !important
+  }
+  

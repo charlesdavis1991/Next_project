@@ -1,0 +1,30 @@
+
+
+.GenDoc-max-width-90P {
+    max-width: 90% !important;
+}
+
+.GenDoc-max-width-100P {
+    max-width: 100% !important;
+}
+
+.GenDoc-width-fit-content-margin-bottom-10px{
+    width: fit-content !important;
+        margin-bottom: 10px !important;
+}
+
+.GenDoc-width-webkit-fill-available-display-inline-table{
+    width: webkit-fill-available !important;
+        display: inline-table !important;
+}
+
+.GenDoc-color-19395f{
+    color: #19395f !important;
+}
+
+.GenDoc-text-align-center-align-items-center-justify-content-center-display-flex{
+    text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex !important;
+}

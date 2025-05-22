@@ -1,0 +1,104 @@
+ /* td {
+     color: black !important;
+     font-weight: 400 !important;
+ } */
+
+ #nav-tab-account-checks .nav-link {
+     flex-grow: 0;
+     width: 145px;
+     padding-left: 15px;
+     padding-right: 15px;
+     white-space: nowrap;
+ }
+
+ .action-bar {
+     left: 170px;
+ }
+
+ .bpAccounting-color-black{
+    color: black !important;
+ }
+ .tab-item:hover {
+    
+    background: var(--primary-70) !important;
+    color:white !important;
+    z-index:999 !important;
+}
+.background-temp{
+   background: rgb(119, 119, 119,0.07) !important;
+}
+#tb-header th{
+    vertical-align: middle;
+    line-height: 1;
+    font-size:14px;
+    font-weight: 600 !important;
+    padding:9.3px 5px !important;
+    color:var(--primary) !important;
+    background-color:var(--primary-10) !important;
+    text-transform: uppercase !important;
+    height:25px !important;
+    white-space: nowrap !important;
+    
+    }
+.white-space-no{
+    white-space: nowrap !important;
+}
+#margin-left-0 button{
+    margin-left:0 !important;
+}
+#height-50{
+    height:55px !important;
+}
+.height-auto{
+    height:auto !important;
+}
+.min-h-382P58{
+    min-height: 382.58px;
+}
+.width-60{
+    width:60px !important;
+}
+.width-100{
+    width:100px !important;
+}
+.alert {
+    z-index: 90000000;
+}
+.border-no{
+    border:none !important;
+}
+.accounting-fake-rows{
+    position: absolute;
+    top:32.58px;
+    left:0;
+
+    
+
+}
+.accounting-fake-rows div{
+    height:35px !important;
+}
+.accounting-fake-row:nth-child(even){
+    background-color: var(--primary-4);
+}
+.accounting-fake-row:nth-child(odd){
+    
+    background-color: var(--primary-2);
+}
+.accounting-fake-row:nth-child(odd):hover,.accounting-fake-row:nth-child(even):hover{
+    background:#fff;
+}
+
+.accounting-nav-tabs a{
+    flex-grow:0 !important;
+    white-space: nowrap !important;
+}
+#tb-header #padding-left-42{
+    padding-left:42px !important;
+}
+
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}

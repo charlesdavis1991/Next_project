@@ -1,0 +1,113 @@
+.table-workers:not(.tf-table) thead th {
+  background: var(--primary-10);
+  font-size: 14px;
+  color: var(--primary);
+  vertical-align: middle;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1;
+  padding: 9.3px 5px;
+  white-space: nowrap;
+  height: 25px;
+}
+
+.has-height-25.table-workers thead th {
+  padding: 5.3px 5px;
+  height: 25px;
+}
+
+.border-box .table-workers thead th {
+  padding: 0px 5px;
+  height: 25px;
+  font-size: 14px;
+  /*background: var(--primary-60);*/
+  color: #fff;
+}
+
+.table-workers-1st:not(.tf-table) tbody tr:nth-of-type(odd) {
+  background-color: var(--primary-4);
+}
+
+.table-workers-1st:not(.tf-table) tbody tr:nth-of-type(even) {
+  background-color: var(--primary-2);
+}
+
+.table-workers-2nd:not(.tf-table) tbody tr:nth-of-type(odd) {
+  background-color: var(--primary-2);
+}
+
+.table-workers-2nd:not(.tf-table) tbody tr:nth-of-type(even) {
+  background-color: var(--primary-4);
+}
+
+.table-workers:not(.tf-table) tbody tr:hover {
+  background-color: #fff;
+}
+
+.table-workers:not(.tf-table) thead th.text-right {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.table-workers:not(.tf-table) tbody td {
+  padding: 1px 5px;
+  border: none;
+  height: 35px;
+}
+
+.has-height-td-50.table-workers tbody td {
+  height: 50px;
+}
+
+.has-height-td-55.table-workers tbody td {
+  height: 55px;
+}
+
+.table-workers tbody td .dz-complete,
+.table-workers tbody td .dz-success,
+.table-workers tbody td .dz-processing,
+.table-workers tbody td .dz-file-preview,
+.table-workers tbody td .dz-preview {
+  margin: 0;
+}
+
+.table-workers:not(.tf-table) tbody td.text-right {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.table-workers.t-b-0 thead th {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.profile-pic-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-pic-wrapper img {
+  display: block;
+}
+
+.online-icon {
+  position: absolute !important;
+  left: -24px !important; /* Adjust based on the desired positioning */
+  width: 19px !important;
+  height: 19px !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  max-width: 35px !important;
+  margin-top: 5px !important;
+}
+
+.img-border {
+  border: 2px solid var(--green) !important;
+}
+
+.default::after {
+  border: 2px solid var(--green) !important;
+}
+
+.caseWorkerLastAccessedDate {
+  padding-right: 15px !important;
+}

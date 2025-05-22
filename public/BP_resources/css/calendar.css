@@ -1,0 +1,14 @@
+#calendar-container {
+    position: relative;
+    z-index: 1;
+
+}
+
+.calendar-margin-top-131px{
+    margin-top: 131px !important;
+}
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}

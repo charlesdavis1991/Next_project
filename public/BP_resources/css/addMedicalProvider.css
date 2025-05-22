@@ -1,0 +1,98 @@
+ .dropdown-toggle::after {
+     display: inline-block;
+     width: 0;
+     height: 0;
+     margin-left: 0.255em;
+     vertical-align: 0.255em;
+     content: "";
+     border-top: 0.3em transparent;
+     border-right: 0.3em solid transparent;
+     border-bottom: 0;
+     border-left: 0.3em solid transparent;
+ }
+
+
+
+.addMedicalProvider-background-color-6c757d-color-white-margin-0-auto-0-auto{
+    background-color: #6c757d !important;
+        color: white !important;
+        margin: 0 auto 0 auto !important;
+}
+
+.addMedicalProvider-cursor-pointer-color-white{
+    cursor: pointer !important;
+        color: white !important;
+}
+
+.addMedicalProvider-padding-top-146px{
+    padding-top: 146px !important;
+}
+
+.addMedicalProvider-margin-left-10px{
+    margin-left: 10px !important;
+}
+
+.addMedicalProvider-width-100P{
+    width: 100% !important;
+}
+
+.addMedicalProvider-margin-left-25px{
+    margin-left: 25px !important;
+}
+
+.addMedicalProvider-display-flex-margin-top-0px-margin-left-0px-width-100P{
+    display: flex;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        width: 100% !important;
+}
+
+.addMedicalProvider-padding-8px-0px-font-weight-bold{
+    padding: 8px 0px !important;
+        font-weight: bold !important;
+}
+
+.addMedicalProvider-float-right{
+    float: right !important;
+}
+
+.addMedicalProvider-text-decoration-none{
+    text-decoration: none !important;
+}
+
+.addMedicalProvider-margin-left-auto-display-block{
+    margin-left: auto !important;
+        display: block !important;
+}
+
+.addMedicalProvider-width-6P{
+    width: 6% !important;
+}
+
+.addMedicalProvider-width-4-5P{
+    width: 4.5% !important;
+}
+
+.addMedicalProvider-width-5P{
+    width: 5% !important;
+}
+
+.addMedicalProvider-width-2P{
+    width: 2% !important;
+}
+
+.addMedicalProvider-margin-0-auto-0-auto{
+    margin: 0 auto 0 auto !important;
+}
+
+.addMedicalProvider-padding-4px-5px-color-white{
+    padding: 4px 5px !important;
+        color: white !important;
+}
+
+.addMedicalProvider-text-decoration-none-color-000-background-color-transparent-border-0px{
+    text-decoration: none !important;
+        color: #000 !important;
+        background-color: transparent !important;
+        border: 0px !important;
+}

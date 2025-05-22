@@ -1,0 +1,19 @@
+#uplaod-td-firm-settings {
+  padding: 12px !important;
+}
+
+
+.upload-template-tab-firmsetting{
+  height: 550px !important;
+  max-height: 1000px;
+}
+
+
+.edit-template-tab-firmsetting{
+  height: 480px !important;
+  max-height: 800px;
+}
+
+.important-z-index-0 {
+  z-index: 0 !important;
+}

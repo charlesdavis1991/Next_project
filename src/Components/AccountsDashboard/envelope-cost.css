@@ -1,0 +1,87 @@
+.div-tilted-accounts {
+  position: relative; /* To position the pseudo-elements */
+  height: 25px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-90) 100%);
+  padding-right: 10px;
+  padding-left: 4px;
+  margin: 0 0 5px 0;
+}
+
+
+.trapezoid-button:hover {
+  background-color: var(--primary) !important;
+}
+
+.trapezoid-button {
+  z-index: "2";
+  margin: "0 8px";
+  transform: "none";
+  position: "relative";
+  height: "25px";
+  color: #fff !important;
+  font-weight: 600;
+  position: relative;
+  height: 25px; /* Fix height for the button */
+  padding: 0 20px; /* Adjust padding if necessary */
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.add-cost-btn {
+  width: 167px;
+  text-align: center;
+}
+
+.cost-envelope-btn {
+  width: 167px;
+  text-align: center;
+  margin-left: -1px;
+}
+
+.trapezoid-button:hover::before {
+  background-color: var(--primary) !important;
+}
+
+.trapezoid-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2px; /* Adjust the left position */
+  width: 5px;
+  height: 100%;
+  transform: skewX(-11.3deg); /* Tilt the left side of the button */
+}
+
+.add-cost-btn::before {
+  background: var(--primary-90);
+}
+
+.cost-envelope-btn::before {
+  background: var(--primary-80);
+}
+
+.trapezoid-button:hover::after {
+  background-color: var(--primary) !important;
+}
+
+.trapezoid-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -2px; /* Adjust the right position */
+  width: 5px;
+  height: 100%;
+  transform: skewX(11.3deg); /* Tilt the right side of the button */
+}
+
+.add-cost-btn::after {
+  background: var(--primary-90);
+}
+
+.cost-envelope-btn::after {
+  background: var(--primary-80);
+}
+
+.bg-primary {
+  background: var(--primary);
+}

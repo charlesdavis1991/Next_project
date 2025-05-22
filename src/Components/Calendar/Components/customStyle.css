@@ -1,0 +1,64 @@
+/* .width200{
+width: 300px !important;
+} */
+.w100{
+width: 100px !important;
+}
+.width120{
+width: 120% !important;
+}
+.width30{
+  
+  width: 25px !important;
+}
+.customAlign{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center !important;
+}
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+.skew-containerCustom {
+    position: relative;
+    width: 96%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 1 !important;
+  }
+
+.skew-containerCustom::before {
+  /* content: "";
+    position: absolute;
+    top: 0;
+    right: 2px;
+    width: 101%;
+    height: 100%;
+    background-color: white;
+    transform: skew(-11.31deg, 0deg) !important;
+    z-index: -1 !important;Ensures it sits behind the content */
+  }
+  @media  (max-width: 800px)  {
+    .select-width{
+      min-width: 100%;
+      /* min-width: 240px; */
+    }
+    
+  }
+  @media  (max-width: 1456px)  {
+    .minWidth{
+      min-width: 120px;
+    }
+    .customAlign{
+      align-items: flex-start !important;
+    justify-content: start;
+
+    }
+  }

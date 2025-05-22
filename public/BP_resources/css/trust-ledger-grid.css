@@ -1,0 +1,51 @@
+.grid-table {
+    display: grid;
+    grid-template-columns: 20px 1fr 100px 1fr 1fr 1fr 1fr 140px 70px 100px 100px 80px 100px 80px;
+    margin : 5px;
+    align-items: stretch;
+    font-size: 14px;
+    width: 100%;
+}
+
+.grid-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-weight: 600 !important;
+    padding:9.3px 5px !important;
+    color:var(--primary) !important;
+    background-color: #fff !important;
+    text-transform: uppercase !important;
+    height:25px !important;
+    white-space: nowrap !important;
+}
+.grid-cell {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-overflow: clip;
+    overflow: clip;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 5px;
+}
+.align-right {
+    justify-content: flex-end;
+}
+.align-left {
+    justify-content: flex-start;
+}
+.highlighted-background {
+    background-color: var(--primary-5);
+}
+
+.span-two {
+    grid-column: span 2;
+}
+.span-three {
+    grid-column: span 3;
+}

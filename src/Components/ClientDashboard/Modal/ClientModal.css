@@ -1,0 +1,47 @@
+.page-icon-edit-client-popup {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.translate-note-icon-edit-client-popup {
+  width: 35px;
+  height: 35px;
+}
+
+.text-wrapper-edit-client-popup {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: white;
+}
+
+.my-action-bar-edit-client-popup {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Slanted background */
+.my-action-bar-edit-client-popup::before {
+  content: "";
+  position: absolute;
+  left: 50px; /* Start the background right after the icon */
+  top: 0;
+  bottom: 0;
+  width: calc(100% - 40px); /* Adjust width to start after the icon */
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-90) 100%);
+  transform: skew(-11.31deg);
+  z-index: 0;
+}
+
+.text-font-weight-edit-popup {
+  font-weight: 400 !important;
+}
+
+.client-modals-width-popup {
+  width: 1500px !important;
+  max-width: 1500px !important;
+}

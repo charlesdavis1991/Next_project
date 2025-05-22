@@ -1,0 +1,997 @@
+@media (max-width: 575.98px) {
+  .modal-fullscreen {
+    padding: 0 !important;
+  }
+
+  .modal-fullscreen .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+  }
+
+  .modal-fullscreen .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .modal-fullscreen .modal-body {
+    overflow-y: auto;
+    z-index: 9999999999;
+  }
+}
+
+.modal-fullscreen-xl {
+  padding: 0 !important;
+  z-index: -999999 !important;
+  display: block !important;
+}
+
+.modal-fullscreen-xl.show {
+  z-index: 999999 !important;
+}
+
+.modal-fullscreen-xl .modal-dialog {
+  max-width: 1950px;
+  height: calc(100% - 60px);
+  padding: 0 100px;
+}
+
+.modal-fullscreen-xl .modal-content {
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
+
+.modal-fullscreen-xl .modal-body {
+  overflow-y: auto;
+  overflow: hidden !important;
+}
+
+.pdfviewer {
+  height: calc(100% - 86px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* width: calc(100% - 265px); */
+  overflow: auto;
+}
+
+.pdfviewer-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+}
+
+.thumbnails {
+  width: 110px !important;
+  border: 1px solid #aaa;
+  border-right: 3px solid #999;
+  background: #ccc;
+}
+
+.thumbnails .pdfpage {
+  width: 100% !important;
+  height: 130px !important;
+}
+
+.thumbnails .content-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.thumbnails .pdfpage.selected {
+  border: 2px solid #777;
+  border-radius: 2px;
+}
+
+.maindoc {
+  flex: 1;
+}
+
+.hide {
+  display: none;
+}
+
+#documentPreviewModal .table-responsive {
+  min-height: inherit;
+}
+
+/* input[type="file"] {
+  display: none;
+} */
+
+/*
+ Copyright 2020 Carlos de Alfonso (https://github.com/dealfonso)
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+		 http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
+.pdfjs-viewer {
+  overflow: auto;
+  border: 1px solid #aaa;
+  background: #ccc;
+  /* width: 100%; */
+  border-right: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pdfjs-viewer.horizontal-scroll {
+  display: flex;
+}
+
+.pdfjs-viewer.horizontal-scroll .pdfpage {
+  margin-left: 1em;
+  margin-top: 0.25em !important;
+  margin-bottom: 0.25em !important;
+  display: block;
+}
+
+.pdfpage {
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  display: flex;
+}
+
+.pdfpage canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.pdfpage.placeholder {
+  display: flex;
+  margin-bottom: 0em !important;
+  margin-top: 0em !important;
+  height: 100%;
+  width: 100%;
+}
+
+.pdfpage .content-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+}
+
+.pdfpage .content-wrapper .loader {
+  border: 2px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pdftoolbar {
+  width: 100%;
+  height: 35px;
+  background: #ddd;
+  z-index: 100;
+  vertical-align: middle;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.pdftoolbar .pageno {
+  width: 50px;
+  text-align: center;
+}
+
+/* .pdftoolbar .center-controls {
+  padding-left: 100px;
+} */
+
+/* .pdftoolbar .zoom-controls {
+  padding-left: 100px;
+} */
+
+/* .pdftoolbar * {
+  margin: auto 0;
+} */
+.overflow-word {
+  overflow-wrap: anywhere;
+}
+.dropdown-value-max-height {
+  max-height: 27px;
+}
+
+.dropdown-value-max-width {
+  min-width: 75px;
+}
+.pdftoolbar span {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  width: 4em !important;
+  font-size: 14px;
+}
+
+.pdftoolbar button,
+.pdftoolbar label.button,
+.pdftoolbar a.button {
+  min-width: 26px;
+  height: 28px;
+  border: none;
+  padding: 2px 4px 0;
+  margin: auto 1px;
+  border-radius: 2px;
+  line-height: 12px;
+  font-size: 14px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.pdftoolbar button i,
+.pdftoolbar label.button i {
+  font-size: 26px;
+  padding: 0;
+  margin: 0;
+}
+
+.pdftoolbar button:hover,
+.pdftoolbar label.button:hover,
+.pdftoolbar a.button:hover {
+  background-color: #ccc;
+}
+
+button.pushed {
+  background-color: #aaa;
+}
+
+.pdftoolbar a.button {
+  color: inherit;
+}
+
+.pdftoolbar .divider {
+  flex: 1;
+}
+
+.pdftoolbar .v-sep {
+  width: 0px;
+  height: 20px;
+  border-left: 1px solid #bbb;
+}
+
+.pdftoolbar .h-sep {
+  width: 100%;
+  height: 0px;
+  border-top: 1px solid #bbb;
+  margin: 0.25em 0;
+}
+
+.pdftoolbar .dropdown.dropdown-right {
+  float: right;
+}
+
+.pdftoolbar .dropdown.dropdown-right .dropdown-content {
+  right: 0 !important;
+  left: auto;
+}
+
+.pdftoolbar .dropdown-value {
+  background-color: #ccc;
+  padding: 0px 4px 2;
+  cursor: pointer;
+}
+
+.pdftoolbar .dropdown-value i {
+  width: auto;
+  font-size: 14px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.pdftoolbar .dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 0;
+  background-color: #eee;
+  min-width: 10em;
+  z-index: 1;
+  font-size: 14px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  background: #fff !important;
+  width: auto !important;
+  right: auto !important;
+  top: auto !important;
+}
+
+/* Links inside the dropdown */
+.pdftoolbar .dropdown-content a {
+  all: initial;
+  font: inherit;
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.pdftoolbar .dropdown-content i {
+  font-size: 14px;
+  padding-right: 0.5em;
+}
+
+.pdftoolbar .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.pdftoolbar .dropdown:hover .dropdown-content,
+.dropdown .dropdown-content:hover {
+  display: block;
+}
+
+.right-siderbar {
+  position: absolute;
+  top: 0;
+  /* width: 400px; */
+  right: 0;
+  height: 100%;
+  background: var(--primary-5);
+  z-index: 9999;
+  /* padding: 0 5px 0 5px; */
+}
+
+.side-bar-padding {
+  padding: 0 10px 0 5px;
+}
+
+.right-siderbar .top-content .client-name a {
+  line-height: 35px;
+}
+
+.right-siderbar .tile-row {
+  line-height: 21px;
+}
+
+.right-siderbar .dropdown .dropdown-menu {
+  width: auto;
+  min-width: auto;
+  padding: 0;
+}
+
+.right-siderbar .dropdown .dropdown-menu li {
+  /* border-bottom: 1px solid #ccc; */
+  white-space: nowrap !important;
+}
+
+.right-siderbar .dropdown li a {
+  width: 100% !important;
+  display: block;
+}
+
+.right-siderbar .dropdown li a {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding: 0 10px;
+}
+
+.right-siderbar .dropdown ul.show {
+  position: absolute !important;
+}
+
+.right-siderbar .dropdown-menu .sub-menu {
+  position: absolute;
+  top: 0;
+  display: none;
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left-color: #fff;
+  box-shadow: none;
+}
+
+/* .download-btn {
+  margin-bottom: 75px;
+} */
+
+.pdftoolbar-wrapper {
+  position: fixed;
+  bottom: 32px;
+  left: auto;
+  right: auto;
+  width: 56.7%;
+  z-index: 99999;
+}
+
+.client-search .form-control {
+  height: 35px;
+}
+
+.right-caret:after,
+.left-caret:after {
+  content: "";
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  display: inline-block;
+  height: 0;
+  vertical-align: middle;
+  width: 0;
+  margin-left: 5px;
+  transform: rotate(180deg);
+  visibility: hidden;
+}
+
+.right-caret:after {
+  border-left: 5px solid #ffaf46;
+}
+
+.left-caret:after {
+  border-right: 5px solid #ffaf46;
+}
+
+.right-caret:hover::after,
+.left-caret:hover::after {
+  visibility: visible;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+}
+
+.dropdown ul.show {
+  position: absolute !important;
+}
+
+.dropdown-menu > li {
+  position: relative;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.dropdown-menu .sub-menu {
+  position: absolute;
+  top: 0;
+  display: none;
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left-color: #fff;
+  box-shadow: none;
+}
+
+.dropdown .submenu {
+  display: block;
+  /* width: 247px !important; */
+  margin: 0;
+}
+
+.DocLink-dropdown {
+}
+
+.right-siderbar .DocLink-dropdown li a {
+  padding: 4.5px 10px;
+  background: #fff;
+}
+
+.right-siderbar .DocLink-dropdown li:nth-of-type(odd) a {
+  background-color: var(--primary-2);
+}
+
+.right-siderbar .DocLink-dropdown li:nth-of-type(even) a {
+  background-color: var(--primary-4);
+}
+
+.right-siderbar .DocLink-dropdown li a:hover {
+  background: #fff;
+}
+
+.client-search-wrapper {
+  /* width: calc(100% - 265px); */
+}
+
+.photoPreviewModal .pdfpage {
+  width: 100%;
+}
+
+.photoPreviewModal .pdfpage .content-wrapper {
+  width: 100%;
+}
+
+.photoPreviewModal .pdfpage .content-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.photoPreviewModal .pdfviewer {
+  height: 100%;
+}
+
+.photoPreviewModal .maindoc {
+  display: flex;
+  align-items: center;
+}
+
+.photoPreviewModal .pdftoolbar-wrapper {
+  width: 58%;
+}
+
+.has-sub-dropdown .dropdown {
+  height: 185px;
+  overflow-x: hidden;
+}
+
+.has-sub-dropdown .add-menu {
+  top: 0;
+  width: 100% !important;
+}
+
+.has-sub-dropdown .submenu {
+  right: 0;
+  left: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  /* .right-siderbar {
+    width: 350px !important;
+  } */
+
+  /* .pdfviewer {
+    width: calc(100% - 350px);
+  }
+
+  .client-search-wrapper {
+    width: calc(100% - 350px);
+  } */
+}
+
+.Doc-max-width-1200px {
+  max-width: 1200px !important;
+}
+
+.Doc-float-left-margin-right-auto {
+  float: left !important;
+  margin-right: auto !important;
+}
+
+.Doc-overflow-visible {
+  overflow: visible !important;
+}
+
+.Doc-height-5rem-overflow-visible {
+  height: 5rem !important;
+  overflow: visible !important;
+}
+
+.Doc-padding-top-0px {
+  padding-top: 0px !important;
+}
+
+.Doc-background-color-transparent {
+  background-color: transparent !important;
+}
+
+.Doc-display-justify-content-background-color-transparent {
+  display: flex !important;
+  justify-content: flex-start !important;
+  background-color: transparent !important;
+}
+
+.Doc-width-15px-height-15px {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.Doc-width-90p {
+  width: 90% !important;
+}
+
+.Doc-width-100p {
+  width: 100% !important;
+}
+
+.icon-wrap {
+  pointer-events: none;
+}
+
+.ic-upload-document {
+  pointer-events: none;
+}
+
+p.name {
+  pointer-events: none;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.vertical-align-mid {
+  vertical-align: middle;
+}
+
+.hover-effect {
+  padding-left: 2px !important;
+}
+
+.hover-effect span {
+  visibility: hidden;
+  rotate: 90deg;
+}
+
+.hover-effect:hover span {
+  visibility: visible;
+}
+
+#overflow-y-sc {
+  overflow-y: scroll !important;
+}
+
+#client-search-tb-head th {
+  background: var(--primary-2) !important;
+  color: var(--primary) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+}
+
+.color-white {
+  color: white !important;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 0;
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-block {
+  display: block;
+}
+
+.color-black {
+  color: #000 !important;
+}
+
+.blur-5-modal .modal-header,
+.blur-5-modal .modal-body .client-search-wrapper,
+.blur-5-modal .modal-body .pdfviewer,
+.blur-5-modal .modal-body .right-siderbar .top-content,
+.blur-5-modal .modal-body .right-siderbar .center-content .tile-row .dropdown,
+.blur-5-modal .modal-body .right-siderbar .bottom-content {
+  filter: blur(5px);
+}
+
+.other-firm-user-poup {
+  z-index: 9999999;
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 35px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: none !important;
+  padding: 0 50px;
+}
+
+.padding-x-25 {
+  padding: 0 50px !important;
+}
+
+.todo-mega-popup {
+  z-index: 9999999;
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 35px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: none !important;
+  padding: 0 50px;
+}
+
+.text-upper {
+  text-transform: uppercase !important;
+}
+
+.top-26px {
+  top: 26px !important;
+}
+
+.table-fake-row {
+  height: 36px;
+}
+
+.table-fake-row:nth-of-type(odd) {
+  background-color: var(--primary-2);
+}
+
+.table-fake-row:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.margin-top-7 {
+  margin-top: 7px;
+}
+
+.flex-g {
+  flex-grow: 1;
+}
+
+.custom-control {
+  padding-left: 15px !important;
+}
+
+#overflow-x-vis {
+  overflow-x: visible !important;
+}
+
+#flex-0-0-83 {
+  flex: 83px !important;
+}
+
+#flex-0-0-91 {
+  flex: 91px !important;
+}
+
+.mega-hover-btn {
+  position: absolute;
+  left: 1%;
+}
+
+.white-space-nowrap {
+  white-space: nowrap !important;
+}
+
+.dis-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  background: #fff;
+}
+
+.dis-grid > div {
+  padding: 0 15px;
+}
+
+.dis-grid > div:nth-child(even) {
+  background-color: var(--primary-2);
+}
+
+.dis-grid > div:nth-child(odd) {
+  background-color: var(--primary-4);
+}
+
+.dis-grid > div:hover {
+  background-color: #fff !important;
+}
+
+@media screen and (min-width: 1440px) {
+  .dis-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .dis-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 2800px) {
+  .dis-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+#padding-l-15 {
+  padding-left: 15px !important;
+}
+
+#padding-r-15 {
+  padding-right: 15px !important;
+}
+
+.common-width a,
+.common-width button {
+  width: 33.33% !important;
+  max-width: 33.33% !important;
+  flex: 0 0 33.33% !important;
+}
+
+.align-mid {
+  vertical-align: middle !important;
+  transform: rotate(90deg) !important;
+  visibility: hidden !important;
+  display: none !important;
+}
+
+.six-buttons {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+}
+
+.six-buttons a,
+.six-buttons button {
+  width: 100%;
+  max-width: 100%;
+}
+
+.fs-size-24 {
+  font-size: 24px !important;
+}
+
+.rotate-btn:hover .align-mid {
+  visibility: visible !important;
+  display: block !important;
+}
+
+.height-420 {
+  height: 420px !important;
+}
+
+.client-BarAlign {
+  left: 132px !important;
+  background-color: white !important;
+}
+
+.pointer-event-none {
+  pointer-events: none;
+}
+
+.background-color-white {
+  background-color: #fff;
+}
+
+.font-size-24 {
+  font-size: 24px !important;
+}
+
+.font-family-universal {
+  font-family: "Inter", sans-serif !important;
+}
+
+.icon-text-boxes div button {
+  font-family: "Inter", sans-serif !important;
+}
+
+.min-height-35 {
+  min-height: 35px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .font-size-24 {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1200px) {
+  .font-size-24 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1030px) {
+  .font-size-24 {
+    font-size: 19px !important;
+  }
+}
+
+.right-siderbar .dropdown .dropdown-menu li:nth-child(odd) {
+  background: var(--primary-2) !important;
+}
+
+.right-siderbar .dropdown .dropdown-menu li:nth-child(even) {
+  background: var(--primary-4) !important;
+}
+
+/* AB's Changes */
+.dropdown-menu-parent .s-drop {
+  display: none !important;
+  top: 50% !important;
+  transform: translate(0, -50%) !important;
+}
+
+.dropdown-menu-parent .dropdown-submenu:hover > .s-drop {
+  display: block !important;
+  right: 100% !important;
+}
+
+.dropdown-menu-parent .dropdown-submenu:hover > .s-drop li a {
+  height: 35px;
+  margin-left: 0 !important;
+}
+
+.dropdown-menu-parent .dropdown-submenu:hover > .s-drop li a .ic-23 {
+  width: 29px;
+  height: 29px;
+  flex: 0 0 29px;
+}
+
+.right-siderbar .dropdown .dropdown-menu li .ic-15 {
+  width: 15px;
+  height: 15px;
+}
+
+.right-siderbar .dropdown .dropdown-menu li .link-case {
+  padding-left: 24px !important;
+}
+
+.dropdown-menu-parent .dropdown-submenu:hover > .s-drop li:nth-child(even) {
+  background: var(--primary-5) !important;
+}
+
+.dropdown-menu-parent .dropdown-submenu:hover > .s-drop li:nth-child(odd) {
+  background: var(--primary-10) !important;
+}
+
+.dropdown-menu-parent .s-drop .dropdown--left-icons {
+  visibility: hidden !important;
+}
+
+.dropdown-menu-parent .dropdown-submenu:hover > a .dropdown--left-icons {
+  visibility: visible !important;
+}
+
+/* Define background colors for the first four items */
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 1),
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 2),
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 3),
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 4) {
+  background-color: var(--primary-2);
+}
+
+/* Define background colors for the next four items */
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 5),
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 6),
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 7),
+.adjust-custom-bg > div.d-flex:nth-of-type(4n + 8) {
+  background-color: var(--primary-4);
+}
+
+.modal .custom-control-input {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+}

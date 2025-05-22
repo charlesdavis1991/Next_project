@@ -1,0 +1,15 @@
+.border-bottom-footer-floaating-tab {
+  border-bottom: 0px !important;
+}
+
+.inner-circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--primary);
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  margin-right: 5px;
+}

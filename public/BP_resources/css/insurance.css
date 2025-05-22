@@ -1,0 +1,130 @@
+/* farrukh code */
+#phone-modal .modal-dialog, #dob-modal .modal-dialog{
+  min-width: 700px;
+  max-width: 900px;
+}
+#phone-modal .modal-dialog .modal-content-row, #phone-modal .modal-dialog .modal-footer, #dob-modal .modal-dialog .modal-content-row, #dob-modal .modal-dialog .modal-footer{
+  display: flex;
+  justify-content: space-between;
+}
+#phone-modal .modal-dialog .modal-body .form-control{
+  border: 1px solid #ccc;
+}
+#phone-modal .modal-dialog .modal-body p, #dob-modal .modal-dialog .modal-body p{
+  color: #000;
+  min-width: 270px;
+}
+
+
+
+
+.INS-max-width-1000px{
+  max-width: 1000px !important;
+}
+
+.INS-max-width-600px{
+  max-width: 600px !important;
+}
+
+.INS-max-width-1100px{
+  max-width: 1100px !important;
+}
+
+.INS-width-100px{
+  width: 100px !important;
+}
+
+.INS-width-1px{
+  width: 1% !important;
+}
+
+.INS-max-width-100p-width-66p{
+  max-width: 100% !important;
+    width: 66% !important;
+}
+
+.INS-color-black {
+  color: #000 !important;
+}
+
+.INS-float-margin{
+float: left !important;
+  margin-right: auto !important;
+}
+
+.INS-position-top-7px-right-n3px{
+  position: absolute !important;
+    top: 7px !important;
+    right: -3px !important;
+}
+
+.INS-width-6p-padding-left-52px{
+  width: 6% !important;
+    padding-left: 52px !important;
+}
+
+.INS-color-white-space-word-wrap{
+  color: black !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+.INS-font-size-15px{
+  font-size: 15px !important;
+}
+
+.client-BarAlign {
+  left: 132px !important;
+  background-color: white !important;
+}
+
+.left-div-1{
+left:300px;
+}
+.left-div-2{
+left:463px;
+}
+.left-div-3{
+left:563px;
+}
+
+.City-Width-OP {
+     width: 120px;
+     margin-left: 3px;
+   }
+
+   .State-Align-3 {
+     margin-right: -30px;
+     margin-left: 28px;
+   }
+
+     .City-Width-OP-IC{
+            position: relative;
+            left:56px;
+            width:105px;
+        }
+
+        .City-Width-OP-IC2{
+            width: 105px;
+            margin-left: 30px;
+        }
+
+        .City-Width-OP-IC3{
+            right:5px;
+            position: relative;
+            right:8px;
+        }
+
+        .State-Width-1{
+            position: relative;
+            left: 56px;
+        }
+
+                .Ext-Align {
+                  margin-left: -36px;
+                  max-width: 128px;
+                }
+        
+                .Ext-Align-2 {
+                  margin-left: -10px;
+                }

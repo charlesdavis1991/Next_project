@@ -1,0 +1,100 @@
+.universal-document-modal,
+.universal-document-modal * {
+  border-radius: 0px;
+}
+
+.document-modal-header {
+  background-color: var(--primary);
+  border-radius: 0px;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+#contained-modal-title-vcenter {
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.client-search-input {
+  border-radius: 0 !important;
+}
+
+.document-modal-body {
+  padding: 0 !important;
+  display: flex;
+}
+
+.client-search {
+  margin: 0 !important;
+}
+
+.min-height-0 {
+  min-height: 0 !important;
+}
+
+.document-modal-flex-container {
+  display: flex;
+  align-content: center;
+  height: calc(100% - 70px);
+}
+
+.main-doc-area {
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.pdf-page-style {
+  position: relative;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main-pdf-view-area {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.custom-modal-width .modal-dialog {
+  max-width: 5120px;
+  height: calc(100% - 60px);
+  padding: 0 200px;
+}
+
+.custom-modal-width .modal-content {
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
+
+.custom-modal-width .modal-body {
+  overflow-y: auto;
+  overflow: hidden !important;
+}
+
+.custom-document-modal-flex-container {
+  display: flex;
+  align-content: center;
+  height: calc(100% - 35px) !important;
+}
+
+.pdf-page-content {
+  display: inline-block;
+  max-width: 99%;
+  max-height: 100%;
+  overflow-x: hidden;
+}

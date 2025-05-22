@@ -1,0 +1,40 @@
+  #myDropdown1 li:hover {
+      background-color: #ccc;
+  }
+
+  body {
+      background-color: lightgrey !important;
+  }
+
+
+.createFirstClient-color-000{
+    color: #000 !important
+}
+
+.createFirstClient-padding-0-5px{
+    padding: 0 5px !important
+}
+
+.createFirstClient-padding-0px{
+    padding: 0px !important
+}
+
+.createFirstClient-padding-30px-margin-top-100px-background-color-lightgrey{
+    padding: 30px !important;
+        margin-top: 100px !important;
+        background-color: lightgrey !important;
+}
+
+.createFirstClient-padding-top-146px{
+    padding-top: 146px !important
+}
+
+.createFirstClient-padding-10px-background-color-white{
+    padding: 10px !important;
+        background-color: white !important;
+}
+
+.createFirstClient-height-121px{
+    height: 121px !important
+}
+

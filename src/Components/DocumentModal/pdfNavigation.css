@@ -1,0 +1,31 @@
+.document-pop-up-bottom-bar {
+  background: var(--primary-50) !important;
+}
+
+.document-search-text-color {
+  color: var(--primary-50);
+}
+
+.document-height-25px {
+  height: 25px !important;
+}
+
+.btns-bottom-bar-document-popup {
+  background: var(--primary-20) !important;
+}
+
+.btns-bottom-bar-document-popup:hover {
+  background: var(--primary-10) !important;
+}
+
+@media screen and (max-width: 1050px) {
+  .min-width-search-document-popup {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .min-width-search-document-popup {
+    min-width: 170px !important;
+  }
+}

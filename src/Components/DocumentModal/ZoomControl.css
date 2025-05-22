@@ -1,0 +1,16 @@
+.zoom-controls .dropdown button {
+  width: 100%;
+}
+
+.zoom-controls-text-buttons-colors {
+  background: var(--primary) !important;
+  color: white !important;
+}
+
+.btns-bottom-bar-document-popup {
+  background: var(--primary-20) !important;
+}
+
+.btns-bottom-bar-document-popup:hover {
+  background: var(--primary-10) !important;
+}

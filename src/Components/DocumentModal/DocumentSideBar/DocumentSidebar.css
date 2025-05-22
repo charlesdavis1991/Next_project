@@ -1,0 +1,22 @@
+.w-max-content {
+  width: max-content;
+  overflow-x: scroll;
+}
+
+.top-content {
+  background-color: #f2f5f7;
+}
+
+.img-round {
+  border-radius: 50% !important;
+}
+
+.user_name {
+  font-size: 24px !important;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.document-search-text-color {
+  color: var(--primary-50);
+}

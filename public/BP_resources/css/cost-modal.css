@@ -1,0 +1,37 @@
+#editCostModal, #addCostModal, .modal {
+    z-index: 10000;
+}
+.pika-single {
+    z-index: 20000000 !important; /* or any value higher than the modal's z-index */
+}
+.modal-content #add-cost-header{
+    align-items: center !important;
+    justify-content: center !important;
+    padding:0 1rem !important;
+    height:25px !important;
+}
+.primary-col{
+    color:var(--primary);
+}
+
+
+.Costs-background-color-777777{
+    background-color: #777777 !important;
+}
+
+.Costs-margin-left-2-5rem{
+    margin-left: 2.5rem !important;
+}
+
+.Costs-width-15px-height-15px{
+    width: 15px !important;
+        height: 15px !important;
+}
+
+.Costs-display-none{
+    display: none !important;
+}
+
+.EnvCost-Btns-1{
+    margin-bottom: -15px;
+}

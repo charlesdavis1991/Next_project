@@ -1,0 +1,124 @@
+/* Ensure the wrapper takes up the full viewport height */
+.esign-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevents any horizontal scrolling on the wrapper */
+}
+
+/* Fix the header at the top */
+.esign-header {
+    height: 56px;
+    background-color: rgb(9, 55, 97);
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Fix the sidebar on the left */
+#esign-sidebar {
+    position: fixed;
+    top: 56px; /* Below the header */
+    left: 0;
+    min-width: 250px;
+    max-width: 250px;
+    height: calc(100vh - 56px); /* Full height minus the header */
+    background-color: rgb(67, 114, 149);
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto; /* Allows vertical scrolling if content overflows */
+}
+
+/* Sidebar button styles */
+#esign-sidebar ul.components {
+    padding: 0;
+}
+
+#esign-sidebar ul li a, .a-btn {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+}
+
+#esign-sidebar ul li a:hover, .a-btn:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+/* Main content area with only vertical scrolling */
+.esign-main-content-container {
+    margin-left: 250px; /* Space for sidebar */
+    margin-top: 56px; /* Space for header */
+    padding: 20px;
+    height: calc(100vh - 56px); /* Full height minus the header */
+    overflow-y: auto; /* Only vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/* Content area specific styles */
+.esign-pdf-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Draggable sign styles */
+.draggable-sign {
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(255, 214, 91);
+    color: rgb(157, 38, 36);
+    cursor: move;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.draggable-sign .close {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #esign-sidebar {
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    .esign-main-content-container {
+        margin-left: 0;
+        margin-top: 56px;
+    }
+    .esign-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .Esign-heading{
+        display: none;
+    }
+}

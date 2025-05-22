@@ -1,0 +1,20 @@
+.to-do-max-width-600px{
+    max-width: 600px !important;
+}
+
+.to-do-height-100px{
+    height: 100px !important;
+}
+
+.client-BarAlign {
+    left: 132px !important;
+    background-color: white !important;
+}
+
+.to-do-tasks .to-dotable .table thead th {
+    min-width: inherit !important;
+}
+
+.to-do-tasks .to-dotable .table thead th.table-col-5 {
+    width: 100%;
+}

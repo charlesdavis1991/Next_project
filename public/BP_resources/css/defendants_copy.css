@@ -1,0 +1,150 @@
+.protection-lien-cb .form-check-input{
+    width:10px !important;
+    height:10px !important;
+    margin-top:2px !important;
+}
+
+.leins-container-six {
+    padding: 5px 0px;
+    display: grid !important;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 255px); /* Default: 6 columns, 1 row */
+    column-gap: 5px;
+    height: fit-content;
+}
+
+@media screen and (max-width: 2560px) {
+    .leins-container-six {
+        grid-template-rows: repeat(2, 1fr); /* 2 rows */
+        grid-template-columns: repeat(3, 255px); /* 3 columns */
+        row-gap: 5px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .leins-container-six {
+        grid-template-rows: repeat(3, 1fr); /* 3 rows */
+        grid-template-columns: repeat(2, 255px); /* 2 columns */
+        row-gap: 5px;
+    }
+}
+
+.leins-container-four {
+    padding: 5px 0px;
+    display: grid !important;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 255px); /* Default: 4 columns, 1 row */
+    column-gap: 5px;
+    height: fit-content;
+}
+
+@media screen and (max-width: 2559px) {
+    .leins-container-four {
+        grid-template-rows: repeat(2, 1fr); /* 2 rows */
+        grid-template-columns: repeat(2, 255px); /* 2 columns */
+        row-gap: 5px;
+    }
+}
+
+.leins-container-three {
+    padding: 5px 0px;
+    display: grid !important;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 255px); /* Default: 6 columns, 1 row */
+    column-gap: 5px;
+    height: fit-content;
+}
+
+.liens-container-item{
+    height: 206px !important;
+}
+.liens-container-item > div{
+    height: 100% !important;
+}
+.insurance-modal-dialog .modal-content,.custom-insurance-dialog .modal-content{
+    border:0 !important;
+    border-radius: 0 !important;
+}
+.white-space-nowrap{
+white-space: nowrap !important;
+}
+.custom-select-new-entity::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    width: 17px;
+    height: 17px;
+    background: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 34 17%27 fill=%27%2319395f%27%3E%3Cpath d=%27M0.00683594 0H9.20684L17.0069 7.85384L24.807 0H34.007L17.0069 17L0.00683594 0Z%27 fill=%27%2319395f%27/%3E%3C/svg%3E")
+    no-repeat center;
+    background-size: contain;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.custom-select-state-entity::after,.custom-select-state-entity .form-select::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 17px;
+    height: 17px;
+    background: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 34 17%27 fill=%27%2319395f%27%3E%3Cpath d=%27M0.00683594 0H9.20684L17.0069 7.85384L24.807 0H34.007L17.0069 17L0.00683594 0Z%27 fill=%27%2319395f%27/%3E%3C/svg%3E")
+    no-repeat center;
+    background-size: contain;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.custom-select-new-entity select,.custom-select-state-entity select,.custom-select-state-entity .form-select{
+    appearance: none;          /* Standard syntax */
+    -webkit-appearance: none;  /* Safari and Chrome */
+    -moz-appearance: none;     /* Firefox */
+    background-image: none;    /* Removes default arrow icon */
+          /* Optional: adjust padding */
+}
+.custom-select-state-entity{
+    appearance: none;          /* Standard syntax */
+    -webkit-appearance: none;  /* Safari and Chrome */
+    -moz-appearance: none;     /* Firefox */
+    background-image: none;    /* Removes default arrow icon */
+}
+.custom-select-state-entity .form-control{
+    appearance: none;          /* Standard syntax */
+    -webkit-appearance: none;  /* Safari and Chrome */
+    -moz-appearance: none;     /* Firefox */
+    background-image: none;    /* Removes default arrow icon */
+}
+
+.custom-add-insurance-dialog .modal-content,.custom-add-insurance-dialog{
+    max-width:1000px !important;
+}
+
+.no-scroll-bar {
+    overflow: auto;
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* IE/Edge */
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+display: none;               /* Chrome/Safari/Opera */
+}
+.insurance-input-label{
+    min-width: 112px !important;
+    width:112px !important;
+}
+.insurance-modal-content .continuous-tabs{
+    padding: 0px 10px !important;
+}
+.defendant-modal-content .continuous-tabs{
+    padding: 0px 5px !important; 
+}
+.insurance-modal-content .continuous-tabs button, .defendant-modal-content .continuous-tabs button{
+    flex: 1 !important;
+}
+.defendant-input-label{
+    min-width: 123px !important;
+    width:123px !important;
+}
+.counsel-input-label{
+    min-width: 101px !important;
+    width:101px !important;
+}

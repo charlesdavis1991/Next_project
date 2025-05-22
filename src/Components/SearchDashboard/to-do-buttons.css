@@ -1,0 +1,17 @@
+#critical-btn{
+    background: var(--primary-90) !important;
+}
+#update-btn{
+    background: var(--primary-80) !important;
+}
+#addTask-btn{
+    background: var(--primary-70) !important;
+}
+#event-btn{
+    background: var(--primary-60) !important;
+}
+
+.table-padding tbody td {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}

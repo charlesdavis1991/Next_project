@@ -1,0 +1,207 @@
+.firm-settings-nav {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: auto;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) {
+  border-bottom: none;
+  background: rgba(25, 57, 95, 0.05);
+  height: 100%;
+  overflow: hidden;
+}
+
+.firm-settings-nav-tabs
+  .firm-settings-vertical-tabs
+  .nav-link
+  .active:first-of-type {
+  margin: 0;
+}
+
+.firm-settings-nav-tabs:hover {
+  background: var(--primary) !important;
+  color: #fff;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.firm-settings-nav-tabs .nav-item {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  background: var(--primary-5) !important;
+  color: #777 !important;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover {
+  background: var(--primary);
+  color: #fff;
+  z-index: 10;
+  text-decoration: none;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:first-of-type {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link {
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: none;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  border: none;
+}
+
+.sidebar-tabs .nav-link {
+  height: 30px;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+#nav-cols-parent nav .firm-settings-nav a::before {
+  content: "";
+  display: none;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link .active:hover::before,
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link .active:hover::after {
+  background: var(--primary);
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link.active::before,
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 100%;
+  z-index: 1;
+  background: var(--primary-70);
+  transform-origin: bottom left;
+  transform: skew(-11.31deg, 0deg);
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:first-of-type::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 100%;
+  z-index: 1;
+  background: var(--primary-5);
+  transform-origin: bottom left;
+  transform: skew(-11.31deg, 0deg);
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover::before,
+.firm-settings-nav-tabs:not(.tf-tabs) .firm-settings-nav-link:hover::after {
+  background-color: var(--primary-70) !important;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link.active::before,
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  height: 100%;
+  z-index: 1;
+  background: var(--primary-70);
+  transform-origin: bottom left;
+  transform: skew(-11.31deg, 0deg);
+}
+
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link::before,
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link::after,
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link.active::after {
+  display: none;
+}
+
+#nav-cols-parent nav .firm-settings-nav a::after {
+  content: "";
+  display: none;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link .active:hover::before,
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link .active:hover::after {
+  background: var(--primary) !important;
+}
+
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link::before,
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link::after,
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link.active::after {
+  background: var(--primary) !important;
+}
+
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link::before,
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link::after,
+.firm-settings-nav-tabs .firm-settings-vertical-tabs .nav-link.active::after {
+  display: none;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover::before,
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover::after {
+  background-color: var(--primary-70) !important;
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link.active::after,
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link:hover::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  height: 100%;
+  z-index: 1;
+  background: var(--primary-70);
+  transform-origin: bottom left;
+  transform: skew(11.31deg, 0deg);
+}
+
+.firm-settings-nav-tabs:not(.tf-tabs) .nav-link .active:hover {
+  background: var(--primary);
+  color: #fff;
+  z-index: 10;
+  text-decoration: none;
+}
+
+/* Active state */
+.firm-settings-nav .nav-item.active-tab-firm-settings {
+  background-color: var(--primary-70) !important;
+  color: #fff !important;
+}
+
+.firm-settings-nav .tab-firm-settings-hover:hover {
+  background-color: var(--primary-70) !important;
+  color: #fff !important;
+}
+
+.firm-settings-container {
+  max-width: 5120px;
+}

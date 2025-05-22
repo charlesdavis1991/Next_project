@@ -1,0 +1,28 @@
+.search-note-color-grey{
+    color: grey !important;
+}
+
+.search-note-color-black{
+    color: black !important
+}
+
+.search-note-width-auto-text-align-center{
+    width: auto !important;
+        text-align: center !important;
+}
+
+.search-note-width-5P-text-align-center{
+    width: 5% !important;
+        text-align: center !important;
+}
+
+.search-note-width-10P-text-align-center{
+    width: 10% !important;
+        text-align: center !important;
+}
+
+.search-note-width-auto-text-align-center-text-transform-none{
+    width: auto !important;
+        text-align: center !important;
+        text-transform: none !important;
+}

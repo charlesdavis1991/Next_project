@@ -1,0 +1,225 @@
+.TreatmentPage-main-container {
+  position: relative;
+  top: 165px;
+  padding-top: 5px;
+  /* left: -2px; */
+  z-index: 0;
+  height: calc(100vh - 165px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.TreatmentPage-all-trapezium {
+  position: relative;
+}
+
+.TreatmentPage-all-trapezium::after,
+.TreatmentPage-all-trapezium::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  display: block;
+  z-index: 0;
+}
+
+.TreatmentPage-all-trapezium::before {
+  right: 100%;
+  border-left: 5px solid transparent;
+  border-bottom: 25px solid var(--primary-60);
+}
+
+.TreatmentPage-all-trapezium::after {
+  left: 100%;
+  border-right: 5px solid transparent;
+  border-bottom: 25px solid var(--primary-60);
+}
+
+.TreatmentPage-all-trapezium.active::before {
+  border-bottom-color: var(--primary);
+}
+
+.TreatmentPage-all-trapezium.active::after {
+  border-bottom-color: var(--primary);
+}
+
+.TreatmentPageGrayPanel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* margin-left: 27px; */
+  /* margin-bottom: 5px; */
+  margin-right: 5px;
+  background-color: var(--primary-10);
+}
+
+.TreatmentPageGrayPanel > div {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-10);
+  border: none;
+  width: 99%;
+  height: 25px;
+  margin: 0.5px;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.625;
+  /* color: #666; */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Treatment Detail Page Contact Panel */
+/* TreatmentPanel.css */
+.panels-grid-container {
+  display: grid;
+  /* gap: 20px;
+    width: 100%; */
+}
+
+/* 4K resolution (>2000px) - one row of 6 */
+@media (min-width: 2130px) {
+  .panels-grid-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* 2000px resolution - two rows of 3 */
+@media (min-width: 1350px) and (max-width: 2130px) {
+  .panels-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 1600px resolution - three rows of 2 */
+@media (min-width: 1000px) and (max-width: 1350px) {
+  .panels-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 1440px and below - six rows of 1 */
+@media (max-width: 1000px) {
+  .panels-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel-wrapper {
+  transition: all 0.3s ease-in-out;
+  min-width: 0;
+  /* Prevents overflow issues */
+}
+
+/* Main container styles */
+.main-container {
+  display: flex;
+  overflow: hidden;
+  height: 211px;
+}
+@media (min-width: 2130px) {
+  .main-container {
+    height: 211px;
+  }
+}
+
+/* 2000px resolution - two rows of 3 */
+@media (min-width: 1350px) and (max-width: 2130px) {
+  .main-container {
+    height: 422px;
+  }
+}
+
+/* 1600px resolution - three rows of 2 */
+@media (min-width: 1000px) and (max-width: 1350px) {
+  .main-container {
+    height: 633px;
+  }
+}
+
+/* 1440px and below - six rows of 1 */
+@media (max-width: 1000px) {
+  .main-container {
+    height: 1266px;
+  }
+}
+
+/* Notes panel container */
+/* .notes-container {
+    flex-shrink: 0;
+    width: 300px;
+} */
+/* Treatment Detail Page Contact Panel */
+
+.notes-height-treatment {
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-height-treatment .fields-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-height-treatment .tab-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-height-treatment .panel-notes-section-height {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-height-treatment .table {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.notes-height-treatment .tbody-panels {
+  height: 100%;
+}
+
+.treatment-note-row {
+  height: 60px;
+  /* Adjust this value based on your needs */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .notes-height-treatment {
+    min-height: 400px;
+  }
+
+  .treatment-note-row {
+    height: auto;
+    min-height: 60px;
+  }
+}
+
+.dollar-amount-value-tf-bills[data-value="0.00"],
+.dollar-amount-value-tf-bills[data-value="0"] {
+  color: #3469ab !important;
+}
+
+.dollar-amount-value-tf-bills[data-value="0.00"]::placeholder,
+.dollar-amount-value-tf-bills[data-value="0"]::placeholder {
+  color: #3469ab !important;
+}
+
+.hover-background-row:hover {
+  background: white !important;
+}
+
+#lockedTreatmentPagesPadding {
+  padding: 0 5px !important;
+}
+
+#lockedHeightForInvitation #childlockedHeightForInvitation {
+  height: 35px !important;
+}
